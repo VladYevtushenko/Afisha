@@ -1,0 +1,14 @@
+.header__login-btn {
+    background-image: url(../../../images/login_icon.svg);
+    margin: 20px 0 20px 20px;
+    border: none;
+    height: 18px;
+    width: 20px;
+    transition: .3s;
+}
+
+.header__login-btn:hover {
+    opacity: .7;
+    cursor: pointer;
+    transition: .3s;
+}
