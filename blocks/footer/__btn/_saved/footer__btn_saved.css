@@ -1,0 +1,6 @@
+.footer__btn_saved {
+    background-image: url(../../../../images/saved-flag.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

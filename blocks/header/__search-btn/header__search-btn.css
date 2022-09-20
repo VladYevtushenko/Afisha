@@ -4,11 +4,11 @@
     border: none;
     height: 18px;
     width: 18px;
-    transition: .3s;
+    /* transition: .3s; */
 }
 
-.header__search-btn:hover {
+/* .header__search-btn:hover {
     opacity: .7;
     cursor: pointer;
     transition: .3s;
-}
+} */

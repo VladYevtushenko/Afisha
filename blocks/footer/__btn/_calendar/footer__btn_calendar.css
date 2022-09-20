@@ -1,0 +1,6 @@
+.footer__btn_calendar {
+    background-image: url(../../../../images/calendar-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
