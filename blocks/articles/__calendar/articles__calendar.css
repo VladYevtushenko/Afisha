@@ -1,0 +1,11 @@
+.articles__calendar {
+    background-image: url(../../../../images/calendar-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff;
+    margin-right: 16px;
+}
