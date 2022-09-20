@@ -1,0 +1,8 @@
+.footer__items {
+    margin: 0 43px;
+    padding: 0;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

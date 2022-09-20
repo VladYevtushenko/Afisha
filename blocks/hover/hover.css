@@ -1,0 +1,13 @@
+.hover {
+    transition: .3s;
+}
+
+.hover:hover {
+    transition: .3s;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.hover:active {
+    color: #105FF9;
+}

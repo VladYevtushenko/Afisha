@@ -1,0 +1,6 @@
+.footer__btn_home {
+    background-image: url(../../../../images/home-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
