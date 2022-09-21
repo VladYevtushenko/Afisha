@@ -19,6 +19,9 @@
 @import url(../blocks/category-selector/__container/category-selector__container.css);
 @import url(../blocks/category-selector/category-selector.css);
 @import url(../blocks/category-selector/__arrow/category-selector__arrow.css);
+@import url(../blocks/articles/__list/articles__list.css);
+
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__items/footer__items.css);
 @import url(../blocks/footer/__item/footer__item.css);

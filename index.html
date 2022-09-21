@@ -15,23 +15,26 @@
     </header>
     <div class="main">
         <section class="articles">
+
             <div class="articles__heading">
                 <h1 class="articles__heading-text">Статьи</h1>
                 <button class="articles__calendar hover"></button>
             </div>
+
             <nav class="articles__nav">
                 <ul class="articles__nav-list">
                     <li class="articles__nav-item">
-                        <button class="articles__nav-btn articles__nav-btn_active">Новое</button>
+                        <button class="articles__nav-btn hover articles__nav-btn_active">Новое</button>
                     </li>
                     <li class="articles__nav-item">
-                        <button class="articles__nav-btn">Популярное</button>
+                        <button class="articles__nav-btn hover">Популярное</button>
                     </li>
                     <li class="articles__nav-item">
-                        <button class="articles__nav-btn">На этой неделе</button>
+                        <button class="articles__nav-btn hover">На этой неделе</button>
                     </li>
                 </ul>
             </nav>
+
             <div class="category-selector__container hover">
                 <div class="category-selector">Все категории</div>
                 <img 
@@ -40,6 +43,50 @@
                     alt="стрелка вниз"
                 >
             </div>
+
+            <ul class="articles__list">
+                <li class="article">
+                    <div class="article__user-container">
+                        <img class="article__user-ava" src="#" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Артур Артуров</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <button class="article__user-signUp hover"></button>
+                        <button class="article__user-signUp-btn hover">Подписаться</button>
+                    </div>
+                    <h2 class="article__heading">Куда сходить в Алматы этой осенью?</h2>
+                    <p class="article__paragraph">Парк имени Первого Президента Казахстана Н. А. Назарбаева представляет собой протянувшийся на огромной территории дендрарий в юго-западной части Алматы.</p>
+                    <img class="article__img" src="#" alt="тематическое фото">
+                    <ul class="article__nav-bar">
+                        <li class="nav-bar__item">
+                            <button class="nav-bar__btn hover"></button>
+                        </li>
+                        <li class="nav-bar__item">
+                            <p class="nav-bar__msg-counter"></p>
+                        </li>
+                        <li class="nav-bar__item">
+                            <button class="nav-bar__btn nav-bar__btn_saved hover"></button>
+                        </li>
+                        <li class="nav-bar__item">
+                            <button class="nav-bar__btn nav-bar__btn_share hover"></button>
+                        </li>
+                        <li class="nav-bar__item">
+                            <p class="nav-bar__dislikes-counter"></p>
+                        </li>
+                        <li class="nav-bar__item">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                        </li>
+                        <li class="nav-bar__item">
+                            <p class="nav-bar__likes-counter"></p>
+                        </li>
+                        <li class="nav-bar__item">
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
         </section>
     </div>
     <footer class="footer">
