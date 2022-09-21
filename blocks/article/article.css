@@ -1,0 +1,10 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}

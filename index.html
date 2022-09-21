@@ -47,23 +47,27 @@
             <ul class="articles__list">
                 <li class="article">
                     <div class="article__user-container">
-                        <img class="article__user-ava" src="#" alt="аватар пользователя">
-                        <div class="article__user-info">
-                            <h2 class="article__user-name">Артур Артуров</h2>
-                            <p class="article__user-last-seen">2 часа назад</p>
+                        <div class="article__user-info-box">
+                            <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                            <div class="article__user-info">
+                                <h2 class="article__user-name">Артур Артуров</h2>
+                                <p class="article__user-last-seen">2 часа назад</p>
+                            </div>
                         </div>
-                        <button class="article__user-signUp hover"></button>
-                        <button class="article__user-signUp-btn hover">Подписаться</button>
+                        <div class="article__signUp-box">
+                            <img class="article__user-signUp" src="./images/signup-icon.svg">
+                            <button class="article__user-signUp-btn hover">Подписаться</button>
+                        </div>
                     </div>
                     <h2 class="article__heading">Куда сходить в Алматы этой осенью?</h2>
                     <p class="article__paragraph">Парк имени Первого Президента Казахстана Н. А. Назарбаева представляет собой протянувшийся на огромной территории дендрарий в юго-западной части Алматы.</p>
-                    <img class="article__img" src="#" alt="тематическое фото">
+                    <img class="article__img" src="./images/park-pervogo-presid.jpg" alt="тематическое фото">
                     <ul class="article__nav-bar">
                         <li class="nav-bar__item">
-                            <button class="nav-bar__btn hover"></button>
+                            <button class="nav-bar__btn nav-bar__btn_comment hover"></button>
                         </li>
                         <li class="nav-bar__item">
-                            <p class="nav-bar__msg-counter"></p>
+                            <p class="nav-bar__comment-counter">234</p>
                         </li>
                         <li class="nav-bar__item">
                             <button class="nav-bar__btn nav-bar__btn_saved hover"></button>
@@ -72,13 +76,13 @@
                             <button class="nav-bar__btn nav-bar__btn_share hover"></button>
                         </li>
                         <li class="nav-bar__item">
-                            <p class="nav-bar__dislikes-counter"></p>
+                            <p class="nav-bar__dislikes-counter">13</p>
                         </li>
                         <li class="nav-bar__item">
                             <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
                         </li>
                         <li class="nav-bar__item">
-                            <p class="nav-bar__likes-counter"></p>
+                            <p class="nav-bar__likes-counter">25</p>
                         </li>
                         <li class="nav-bar__item">
                             <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
@@ -86,7 +90,7 @@
                     </ul>
                 </li>
             </ul>
-            
+
         </section>
     </div>
     <footer class="footer">
