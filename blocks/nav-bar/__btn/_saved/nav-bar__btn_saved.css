@@ -1,0 +1,10 @@
+.nav-bar__btn_saved {
+    background-image: url(../../../../images/save-flag-gray.svg);
+    width: 14px;
+    height: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 29px;
+    padding: 0;
+}
