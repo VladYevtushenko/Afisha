@@ -14,7 +14,33 @@
         <button class="header__search-btn hover"></button>
     </header>
     <div class="main">
-
+        <section class="articles">
+            <div class="articles__heading">
+                <h1 class="articles__heading-text">Статьи</h1>
+                <button class="articles__calendar hover"></button>
+            </div>
+            <nav class="articles__nav">
+                <ul class="articles__nav-list">
+                    <li class="articles__nav-item">
+                        <button class="articles__nav-btn articles__nav-btn_active">Новое</button>
+                    </li>
+                    <li class="articles__nav-item">
+                        <button class="articles__nav-btn">Популярное</button>
+                    </li>
+                    <li class="articles__nav-item">
+                        <button class="articles__nav-btn">На этой неделе</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="category-selector__container hover">
+                <div class="category-selector">Все категории</div>
+                <img 
+                    class="category-selector__arrow" 
+                    src="./images/category-selector-arrow.svg" 
+                    alt="стрелка вниз"
+                >
+            </div>
+        </section>
     </div>
     <footer class="footer">
         <ul class="footer__items">
