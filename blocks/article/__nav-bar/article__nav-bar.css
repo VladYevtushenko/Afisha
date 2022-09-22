@@ -1,9 +1,9 @@
 .article__nav-bar {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 56px;
     padding: 0;
-    margin-top: 16px;
+    margin: 16px auto 0;
     justify-content: space-between;
 }
