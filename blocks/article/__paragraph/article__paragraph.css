@@ -4,6 +4,6 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    margin: 0;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
+    width: 90%;
 }

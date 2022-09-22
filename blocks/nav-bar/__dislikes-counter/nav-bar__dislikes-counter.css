@@ -1,0 +1,10 @@
+.nav-bar__dislikes-counter {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: red;
+    margin: 0;
+    margin-right: 14px;
+}

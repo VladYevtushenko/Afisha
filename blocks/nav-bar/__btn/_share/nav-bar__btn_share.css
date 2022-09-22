@@ -1,0 +1,10 @@
+.nav-bar__btn_share {
+    background-image: url(../../../../images/share-icon.svg);
+    width: 16px;
+    height: 19px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 33px;
+    padding: 0;
+}

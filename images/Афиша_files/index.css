@@ -43,9 +43,6 @@
 @import url(../blocks/nav-bar/__btn/_saved/nav-bar__btn_saved.css);
 @import url(../blocks/nav-bar/__btn/_share/nav-bar__btn_share.css);
 @import url(../blocks/nav-bar/__dislikes-counter/nav-bar__dislikes-counter.css);
-@import url(../blocks/nav-bar/__btn/_down-arrow/nav-bar__btn_down-arrow.css);
-@import url(../blocks/nav-bar/__likes-counter/nav-bar__likes-counter.css);
-@import url(../blocks/nav-bar/__btn/_up-arrow/nav-bar__btn_up-arrow.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__items/footer__items.css);
