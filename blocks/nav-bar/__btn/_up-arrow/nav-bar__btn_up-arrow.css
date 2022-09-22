@@ -1,0 +1,10 @@
+.nav-bar__btn_up-arrow {
+    background-image: url(../../../../images/up-arrow-gray.svg);
+    width: 12px;
+    height: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}

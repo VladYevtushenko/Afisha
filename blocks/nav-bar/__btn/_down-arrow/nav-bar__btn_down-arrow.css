@@ -1,0 +1,11 @@
+.nav-bar__btn_down-arrow {
+    background-image: url(../../../../images/down-arrow-gray.svg);
+    width: 12px;
+    height: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    margin-right: 14px;
+}

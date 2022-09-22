@@ -1,0 +1,10 @@
+.nav-bar__likes-counter {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #73C755;
+    margin: 0;
+    margin-right: 14px;
+}

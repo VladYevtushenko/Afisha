@@ -1,0 +1,5 @@
+.nav-bar__item_likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
