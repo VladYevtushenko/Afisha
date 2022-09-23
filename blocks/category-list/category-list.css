@@ -1,0 +1,8 @@
+.category-list {
+    width: 100%;
+    max-width: 360px;
+    background-color: #F4F5F7;
+    margin: 0;
+    padding: 0;
+    /* display: none; */
+}

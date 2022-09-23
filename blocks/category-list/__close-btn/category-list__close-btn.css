@@ -1,0 +1,11 @@
+.category-list__close-btn {
+    background-image: url(../../../images/close-icon.svg);
+    height: 24px;
+    width: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
