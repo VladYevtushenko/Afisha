@@ -48,7 +48,9 @@
 @import url(../blocks/article/__user-signUp/article__user-signUp.css);
 @import url(../blocks/article/__user-signUp-btn/article__user-signUp-btn.css);
 @import url(../blocks/article/__heading/article__heading.css);
+@import url(../blocks/article/__sub-heading/article__sub-heading.css);
 @import url(../blocks/article/__paragraph/article__paragraph.css);
+@import url(../blocks/article/__paragraph/_type/_view/article__paragraph_type_view.css);
 @import url(../blocks/article/__img/article__img.css);
 @import url(../blocks/article/__nav-bar/article__nav-bar.css);
 @import url(../blocks/nav-bar/__item/nav-bar__item.css);
