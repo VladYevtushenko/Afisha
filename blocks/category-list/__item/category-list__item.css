@@ -1,0 +1,9 @@
+.category-list__item {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 58px;
+    border-bottom: 1px solid #BCC5D7;
+}
