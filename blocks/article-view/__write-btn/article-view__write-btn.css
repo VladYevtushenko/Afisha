@@ -1,0 +1,13 @@
+.article-view__write-btn {
+    border: none;
+    background-color: #105FF9;
+    border-radius: 50px;
+    width: 94px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 0 16px 16px auto;
+}

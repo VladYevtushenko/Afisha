@@ -71,7 +71,20 @@
 @import url(../blocks/article-view/__back-container/article-view__back-container.css);
 @import url(../blocks/article-view/__btn-arrow-left/article-view__btn-arrow-left.css);
 @import url(../blocks/article-view/__back/article-view__back.css);
+@import url(../blocks/article-view/__quotation-box/article-view__quotation-box.css);
+@import url(../blocks/article-view/__quots-symbol/article-view__quots-symbol.css);
+@import url(../blocks/article-view/__quots-text/article-view__quots-text.css);
+@import url(../blocks/article-view/__comments-box/article-view__comments-box.css);
+@import url(../blocks/article-view/__comments-heading/article-view__comments-heading.css);
+@import url(../blocks/article-view/__comments-number/article-view__comments-number.css);
+@import url(../blocks/article-view/__write-btn/article-view__write-btn.css);
 
+
+@import url(../blocks/comments-list/comments-list.css);
+
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__img/slider__img.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__items/footer__items.css);
