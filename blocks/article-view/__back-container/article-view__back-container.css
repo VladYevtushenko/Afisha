@@ -1,0 +1,7 @@
+.article-view__back-container {
+    display: flex;
+    width: 100%;
+    flex-direction: rox;
+    align-items: center;
+    height: 58px;
+}
