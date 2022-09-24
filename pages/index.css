@@ -38,8 +38,10 @@
 
 @import url(../blocks/articles/__list/articles__list.css);
 @import url(../blocks/article/article.css);
-@import url(../blocks/article/__user-container.css/article__user-container.css);
+@import url(../blocks/article/__user-container/article__user-container.css);
+@import url(../blocks/article/__user-container/_type/article__user-container_type_comments.css);
 @import url(../blocks/article/__user-info-box/article__user-info-box.css);
+@import url(../blocks/article/__user-info-box/_comments/article__user-info-box_comments.css);
 @import url(../blocks/article/__user-ava/article__user-ava.css);
 @import url(../blocks/article/__user-info/article__user-info.css);
 @import url(../blocks/article/__user-name/article__user-name.css);
@@ -48,12 +50,18 @@
 @import url(../blocks/article/__user-signUp/article__user-signUp.css);
 @import url(../blocks/article/__user-signUp-btn/article__user-signUp-btn.css);
 @import url(../blocks/article/__heading/article__heading.css);
+@import url(../blocks/article/__sub-heading/article__sub-heading.css);
 @import url(../blocks/article/__paragraph/article__paragraph.css);
+@import url(../blocks/article/__paragraph/_type/_view/article__paragraph_type_view.css);
 @import url(../blocks/article/__img/article__img.css);
 @import url(../blocks/article/__nav-bar/article__nav-bar.css);
+@import url(../blocks/article/__user-comment/article__user-comment.css);
+
+
 @import url(../blocks/nav-bar/__item/nav-bar__item.css);
 @import url(../blocks/nav-bar/__item/_main/nav-bar__item_main.css);
 @import url(../blocks/nav-bar/__item/_likes/nav-bar__item_likes.css);
+@import url(../blocks/nav-bar/__item/_comments/nav-bar__item_comments.css);
 @import url(../blocks/nav-bar/__btn/nav-bar__btn.css);
 @import url(../blocks/nav-bar/__btn/_comment/nav-bar__btn_comment.css);
 @import url(../blocks/nav-bar/__comment-counter/nav-bar__comment-counter.css);
@@ -63,6 +71,37 @@
 @import url(../blocks/nav-bar/__btn/_down-arrow/nav-bar__btn_down-arrow.css);
 @import url(../blocks/nav-bar/__likes-counter/nav-bar__likes-counter.css);
 @import url(../blocks/nav-bar/__btn/_up-arrow/nav-bar__btn_up-arrow.css);
+
+
+@import url(../blocks/article-view/article-view.css);
+@import url(../blocks/article-view/__back-container/article-view__back-container.css);
+@import url(../blocks/article-view/__btn-arrow-left/article-view__btn-arrow-left.css);
+@import url(../blocks/article-view/__back/article-view__back.css);
+@import url(../blocks/article-view/__quotation-box/article-view__quotation-box.css);
+@import url(../blocks/article-view/__quots-symbol/article-view__quots-symbol.css);
+@import url(../blocks/article-view/__quots-text/article-view__quots-text.css);
+@import url(../blocks/article-view/__comments-box/article-view__comments-box.css);
+@import url(../blocks/article-view/__comments-heading/article-view__comments-heading.css);
+@import url(../blocks/article-view/__comments-number/article-view__comments-number.css);
+@import url(../blocks/article-view/__write-btn/article-view__write-btn.css);
+
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__img/slider__img.css);
+
+@import url(../blocks/comments-list/comments-list.css);
+@import url(../blocks/comments-list/__comment-answer-btn-container/comments-list__comment-answer-btn-container.css);
+@import url(../blocks/comments-list/__comment-answer-btn/comments-list__comment-answer-btn.css);
+@import url(../blocks/comments-list/__shaw-all-comments-btn/comments-list__shaw-all-comments-btn.css);
+
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__list/news__list.css);
+@import url(../blocks/news/__item/news__item.css);
+@import url(../blocks/news/__photo/news__photo.css);
+@import url(../blocks/news/__info-box/news__info-box.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__name/news__name.css);
 
 
 @import url(../blocks/footer/footer.css);

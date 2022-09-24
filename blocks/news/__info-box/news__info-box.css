@@ -1,0 +1,5 @@
+.news__info-box {
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto 20px 16px;
+}
