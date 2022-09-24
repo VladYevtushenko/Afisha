@@ -1,0 +1,12 @@
+.comments-page__write-btn {
+    width: 90%;
+    height: 41px;
+    border-radius: 30px;
+    background-color: #105FF9;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
