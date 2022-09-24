@@ -38,7 +38,8 @@
 
 @import url(../blocks/articles/__list/articles__list.css);
 @import url(../blocks/article/article.css);
-@import url(../blocks/article/__user-container.css/article__user-container.css);
+@import url(../blocks/article/__user-container/article__user-container.css);
+@import url(../blocks/article/__user-container/_type/article__user-container_type_comments.css);
 @import url(../blocks/article/__user-info-box/article__user-info-box.css);
 @import url(../blocks/article/__user-ava/article__user-ava.css);
 @import url(../blocks/article/__user-info/article__user-info.css);
@@ -56,6 +57,7 @@
 @import url(../blocks/nav-bar/__item/nav-bar__item.css);
 @import url(../blocks/nav-bar/__item/_main/nav-bar__item_main.css);
 @import url(../blocks/nav-bar/__item/_likes/nav-bar__item_likes.css);
+@import url(../blocks/nav-bar/__item/_comments/nav-bar__item_comments.css);
 @import url(../blocks/nav-bar/__btn/nav-bar__btn.css);
 @import url(../blocks/nav-bar/__btn/_comment/nav-bar__btn_comment.css);
 @import url(../blocks/nav-bar/__comment-counter/nav-bar__comment-counter.css);
