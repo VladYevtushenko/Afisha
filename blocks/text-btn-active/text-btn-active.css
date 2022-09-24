@@ -1,0 +1,5 @@
+.text-btn-active {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}

@@ -1,0 +1,8 @@
+.comments-page__close-btn {
+    width: 100%;
+    background-color: #F4F5F7;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

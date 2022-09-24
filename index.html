@@ -14,7 +14,7 @@
         <button class="header__search-btn hover"></button>
     </header>
     <div class="main">
-        <section class="articles">
+        <section class="articles display-none">
 
             <div class="articles__heading">
                 <h1 class="articles__heading-text">Статьи</h1>
@@ -24,7 +24,7 @@
             <nav class="articles__nav">
                 <ul class="articles__nav-list">
                     <li class="articles__nav-item">
-                        <button class="articles__nav-btn hover articles__nav-btn_active">Новое</button>
+                        <button class="articles__nav-btn text-btn-active hover">Новое</button>
                     </li>
                     <li class="articles__nav-item">
                         <button class="articles__nav-btn hover">Популярное</button>
@@ -154,7 +154,7 @@
             </ul>
         </section>
 
-        <section class="article-view">
+        <section class="article-view display-none">
             <div class="article-view__back-container hover">
                 <img 
                     class="article-view__btn-arrow-left" 
@@ -337,7 +337,138 @@
             </ul>
             <button class="comments-list__shaw-all-comments-btn hover">Загрузить еще</button>
         </section>
-        
+
+        <section class="comments-page">
+            <div class="comments-page__close-btn">
+                <button class="close-btn hover"></button>
+            </div>
+            <div class="news__item news__item_comments-page">
+                <img 
+                    src="./images/rest-almaty.png" 
+                    alt="фото ресторана" 
+                    class="news__photo news__photo_comments-page"
+                >
+                <div class="news__info-box">
+                    <p class="news__date">Сегодня 14:00 </p>
+                    <p class="news__name">Куда сходить в Алматы этой осенью?</p>
+                </div>
+            </div>
+            <div class="comments-page__heading-box">
+                <h2 class="comments-page__heading">Комментарии</h2>
+            </div>
+            <div class="comments-page__filter">
+                <p class="comments-page__btn text-btn-active hover">Новые</p>
+                <p class="comments-page__btn hover">Популярные</p>
+            </div>
+            <ul class="comments-list">
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Артур Артуров</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">25</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Отлично! Очень нравится</p>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Madina A</h2>
+                            <p class="article__user-last-seen">23 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">15</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Отлично! Очень нравится</p>
+                    <div class="comments-list__comment-answer-btn-container hover">
+                        <button class="comments-list__comment-answer-btn hover">3 ответа</button>
+                        <img 
+                            src="./images/down-arrow-blue-icon.svg" 
+                            class="comments-list__comment-answer-arrow" 
+                            alt="стрелка вниз">
+                    </div>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Azamat Askhatali</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__dislikes-counter">-2</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Нууууу такое себе, честно говоря</p>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Azamat Askhatali</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__dislikes-counter">-2</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Нууууу такое себе, честно говоря</p>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Azamat Askhatali</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__dislikes-counter">-2</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Нууууу такое себе, честно говоря</p>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Azamat Askhatali</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">2</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Нууууу такое себе, честно говоря</p>
+                </li>
+            </ul>
+            <div class="comments-page__write-btn-box">
+                <button class="comments-page__write-btn hover">Написать комментарий</button>
+            </div>
+        </section>
+
     </div>
     <footer class="footer">
         <ul class="footer__items">
