@@ -1,0 +1,9 @@
+.article__user-comment {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    width: 90%;
+    margin: 12px auto 16px;
+}

@@ -1,3 +1,6 @@
 .article__user-container_type_comments {
     flex-direction: column;
+    width: 100%;
+    margin: 0;
+    border-bottom: 2px solid #F4F5F6;
 }

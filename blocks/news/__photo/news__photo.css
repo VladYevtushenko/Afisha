@@ -1,0 +1,8 @@
+.news__photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+
+}

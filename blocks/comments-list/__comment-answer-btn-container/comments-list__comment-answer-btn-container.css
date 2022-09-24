@@ -1,0 +1,7 @@
+.comments-list__comment-answer-btn-container {
+    margin: 0 auto 12px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+}
