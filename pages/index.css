@@ -86,7 +86,11 @@
 
 
 @import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/_main-page/slider_main-page.css);
 @import url(../blocks/slider/__img/slider__img.css);
+@import url(../blocks/slider/__img/_main-page/slider__img_main-page.css);
+@import url(../blocks/slider/__dots-box/slider__dots-box.css);
+
 
 @import url(../blocks/comments-list/comments-list.css);
 @import url(../blocks/comments-list/__comment-answer-btn-container/comments-list__comment-answer-btn-container.css);
@@ -128,6 +132,12 @@
 @import url(../blocks/text-btn-active/text-btn-active.css);
 
 
+@import url(../blocks/main-page/main-page.css);
+@import url(../blocks/heading-box/heading-box.css);
+@import url(../blocks/heading-box/__heading/heading-box__heading.css);
+
+
+@import url(../blocks/blue-btn/blue-btn.css);
 
 
 @import url(../blocks/display-none.css);

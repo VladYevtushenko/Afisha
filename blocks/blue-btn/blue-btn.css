@@ -1,0 +1,15 @@
+.blue-btn {
+    border: none;
+    border-radius: 16px;
+    margin: 0;
+    padding: 0;
+    margin-right: 16px;
+    background-color: #105FF9;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 117px;
+    height: 30px;
+}
