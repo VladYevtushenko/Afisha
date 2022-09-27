@@ -135,9 +135,18 @@
 @import url(../blocks/main-page/main-page.css);
 @import url(../blocks/heading-box/heading-box.css);
 @import url(../blocks/heading-box/__heading/heading-box__heading.css);
+@import url(../blocks/main-page/__list/main-page__list.css);
+@import url(../blocks/main-page/__list-item/main-page__list-item.css);
+@import url(../blocks/main-page/__img/main-page__img.css);
+@import url(../blocks/main-page/__event-info/main-page__event-info.css);
+@import url(../blocks/main-page/__item-name/main-page__item-name.css);
+@import url(../blocks/main-page/__info-box/main-page__info-box.css);
+@import url(../blocks/main-page/__info-icon/main-page__info-icon.css);
+@import url(../blocks/main-page/__info/main-page__info.css);
 
 
 @import url(../blocks/blue-btn/blue-btn.css);
+@import url(../blocks/save-btn/save-btn.css);
 
 
 @import url(../blocks/display-none.css);

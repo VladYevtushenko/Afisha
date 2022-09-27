@@ -1,3 +1,6 @@
 .slider__img_main-page {
     border-radius: 0;
+    height: 187px;
+    object-fit: contain;
+    object-position: center;
 }
