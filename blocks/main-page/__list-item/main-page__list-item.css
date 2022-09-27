@@ -1,0 +1,8 @@
+.main-page__list-item {
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+    list-style: none;
+}

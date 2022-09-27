@@ -1,0 +1,6 @@
+.main-page__event-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
