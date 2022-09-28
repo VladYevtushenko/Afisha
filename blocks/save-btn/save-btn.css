@@ -4,11 +4,10 @@
     background-color: unset;
     background-repeat: no-repeat;
     padding: 0;
-    margin-right: 21px;
-    margin-bottom: 14px;
+    margin: 0 21px 14px auto;
     width: 20px;
     height: 17px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     align-self: flex-end;
 }
