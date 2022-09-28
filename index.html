@@ -14,8 +14,10 @@
         <button class="header__search-btn hover"></button>
     </header>
     <div class="main">
-        <section class="articles display-none">
 
+<!-- articles (список статей) -->
+
+        <section class="articles display-none">
             <div class="articles__heading">
                 <h1 class="articles__heading-text">Статьи</h1>
                 <button class="articles__calendar hover"></button>
@@ -154,6 +156,8 @@
             </ul>
         </section>
 
+<!-- article-view (просмотр конкретной ствтьи) -->
+
         <section class="article-view display-none">
             <div class="article-view__back-container hover">
                 <img 
@@ -195,6 +199,7 @@
                     Австрийская национальная железнодорожная компания OBB запланировала запуск NightJets - роскошных высокотехнологичных поездов - на лето 2023 года.
                 </p>
             </div>
+
             <div class="slider">
                 <img class="slider__img" src="./images/rest-img.png">
                 <div class="slider__dots-box">
@@ -220,6 +225,7 @@
                     >
                 </div>
             </div>
+
             <h2 class="article__sub-heading">И как же дальше?</h2>
             <p class="article__paragraph article__paragraph_type_view">
                 На данный момент подтверждено курсирование по 25 направлениям в 8 странах, включая Париж, Будапешт, Милан, Вену. Тарифы еще не объявлены, но уже сейчас предполагается, что они снизятся до 29,90 евро (порядка 14 000 тенге).
@@ -337,6 +343,8 @@
             </ul>
             <button class="comments-list__shaw-all-comments-btn hover">Загрузить еще</button>
         </section>
+
+<!-- comments-page -->
 
         <section class="comments-page display-none">
             <div class="comments-page__close-btn">
@@ -468,6 +476,8 @@
                 <button class="comments-page__write-btn hover">Написать комментарий</button>
             </div>
         </section>
+
+<!-- comments-page -->
 
         <section class="main-page">
             <div class="heading-box">
@@ -601,8 +611,128 @@
                 <h2 class="heading-box__heading">Новости</h2>
                 <button class="blue-btn hover">Все новости</button>
             </div>
+            <ul class="news">
+                <li class="news__list news__list_main-page hover">
+                    <div class="news__item">
+                        <img src="./images/oscars.png" alt="фото ресторана" class="news__photo">
+                        <div class="news__info-box">
+                            <p class="news__date">Вчера 15:32</p>
+                            <p class="news__name">94-я церемония вручения премии «Оскар»: коротко о...</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="news__list news__list_main-page hover">
+                    <div class="news__item">
+                        <img src="./images/madrid.png" alt="фото Мадрида" class="news__photo">
+                        <div class="news__info-box">
+                            <p class="news__date">Сегодня 14:00 </p>
+                            <p class="news__name">В Мадриде проходят «Дни казахстанского кино»</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="news__list news__list_main-page hover">
+                    <div class="news__item">
+                        <img src="./images/sandra.png" alt="фото ресторана" class="news__photo">
+                        <div class="news__info-box">
+                            <p class="news__date">Сегодня 14:00 </p>
+                            <p class="news__name">Сандра Баллок объявила об уходе из кино</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="comments-list__shaw-all-comments-btn hover">Загрузить еще</button>
+            <div class="heading-box">
+                <h2 class="heading-box__heading">Статьи</h2>
+                <button class="blue-btn hover">Все статьи</button>
+            </div>
+            <nav class="articles__nav">
+                <ul class="articles__nav-list">
+                    <li class="articles__nav-item">
+                        <button class="articles__nav-btn text-btn-active hover">Новое</button>
+                    </li>
+                    <li class="articles__nav-item">
+                        <button class="articles__nav-btn hover">Популярное</button>
+                    </li>
+                    <li class="articles__nav-item">
+                        <button class="articles__nav-btn hover">На этой неделе</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- <ul class="articles__list">
+                <li class="article">
+                    <div class="article__user-container">
+                        <div class="article__user-info-box">
+                            <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                            <div class="article__user-info">
+                                <h2 class="article__user-name">Артур Артуров</h2>
+                                <p class="article__user-last-seen">2 часа назад</p>
+                            </div>
+                        </div>
+                        <div class="article__signUp-box">
+                            <img class="article__user-signUp" src="./images/signup-icon.svg">
+                            <button class="article__user-signUp-btn hover">Подписаться</button>
+                        </div>
+                    </div>
+                    <h2 class="article__heading">Куда сходить в Алматы этой осенью?</h2>
+                    <p class="article__paragraph">Парк имени Первого Президента Казахстана Н. А. Назарбаева представляет собой протянувшийся на огромной территории дендрарий в юго-западной части Алматы.</p>
+                    <img 
+                        class="article__img" 
+                        src="./images/park-pervogo-presid.jpg" 
+                        alt="тематическое фото"
+                    >
+                    <ul class="article__nav-bar">
+                        <li class="nav-bar__item nav-bar__item_main">
+                            <button class="nav-bar__btn nav-bar__btn_comment hover"></button>
+                            <p class="nav-bar__comment-counter">234</p>
+                            <button class="nav-bar__btn nav-bar__btn_saved hover"></button>
+                            <button class="nav-bar__btn nav-bar__btn_share hover"></button>
+                        </li>
+                        <li class="nav-bar__item nav-bar__item_likes">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">25</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="article">
+                    <div class="article__user-container">
+                        <div class="article__user-info-box">
+                            <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                            <div class="article__user-info">
+                                <h2 class="article__user-name">Артур Артуров</h2>
+                                <p class="article__user-last-seen">2 часа назад</p>
+                            </div>
+                        </div>
+                        <div class="article__signUp-box">
+                            <img class="article__user-signUp" src="./images/signup-icon.svg">
+                            <button class="article__user-signUp-btn hover">Подписаться</button>
+                        </div>
+                    </div>
+                    <h2 class="article__heading">Куда сходить в Алматы этой осенью?</h2>
+                    <p class="article__paragraph">Парк имени Первого Президента Казахстана Н. А. Назарбаева представляет собой протянувшийся на огромной территории дендрарий в юго-западной части Алматы.</p>
+                    <img class="article__img" src="./images/park-pervogo-presid.jpg" alt="тематическое фото">
+                    <ul class="article__nav-bar">
+                        <li class="nav-bar__item nav-bar__item_main">
+                            <button class="nav-bar__btn nav-bar__btn_comment hover"></button>
+                            <p class="nav-bar__comment-counter">234</p>
+                            <button class="nav-bar__btn nav-bar__btn_saved hover"></button>
+                            <button class="nav-bar__btn nav-bar__btn_share hover"></button>
+                        </li>
+                        <li class="nav-bar__item nav-bar__item_likes">
+                            <p class="nav-bar__dislikes-counter">13</p>
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">25</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+             -->
         </section>
     </div>
+
     <footer class="footer">
         <ul class="footer__items">
             <li class="footer__item">
