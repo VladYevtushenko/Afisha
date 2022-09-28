@@ -6,9 +6,13 @@
 /* header */
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__login-btn/header__login-btn.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__search-btn/header__search-btn.css);
+@import url(../blocks/header/__logo-main/header__logo-main.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__btn/header__btn.css);
+@import url(../blocks/header/__btn/_plus/header__btn_plus.css);
+@import url(../blocks/header/__btn/_search/header__btn_search.css);
+@import url(../blocks/header/__btn/_notice/header__btn_notice.css);
 
 /* articles */
 

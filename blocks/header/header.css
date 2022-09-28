@@ -1,13 +1,12 @@
 .header {
     background-color: #000;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     max-width: 1280px;
     position: fixed;
     top: 0;
     height: 60px;
+    justify-content: space-between;
 }
 
 /* @media screen and (max-width: 1152px) {

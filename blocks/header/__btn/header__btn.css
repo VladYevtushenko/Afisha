@@ -1,0 +1,9 @@
+.header__btn {
+    border: none;
+    background-color: unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
