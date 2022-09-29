@@ -746,16 +746,39 @@
         <section class="events">
             <div class="heading-box">
                 <h2 class="heading-box__heading">События</h2>
-                <button class="blue-btn hover">Все события</button>
+                <button 
+                    class="button button_white button_text-color-blue button_events-heading-box hover"
+                >+ Добавить событие</button>
             </div>
+
             <div class="events__view-type">
-                <button class="button button_left button_active">Календарь</button>
-                <button class="button button_right button_active">Список</button>
+                <button 
+                    class="button button_left button_white"
+                >Календарь</button>
+                <button 
+                    class="button button_right button_blue button_text-color-white"
+                >Список</button>
             </div>
+
             <div class="events__filter-box">
-                <button class="events__filter-btn">Сентябрь</button>
-                <button class="events__filter-btn">Все события</button>
+                <div class="events__filter-btn-box hover">
+                    <button class="events__filter-btn">Сентябрь</button>
+                    <img 
+                        class="events__filter-btn-arrow" 
+                        src="./images/down-arrow-black.svg"
+                        alt="стрелка вниз"
+                    >
+                </div>
+                <div class="events__filter-btn-box hover">
+                    <button class="events__filter-btn">Все события</button>
+                    <img 
+                        class="events__filter-btn-arrow" 
+                        src="./images/down-arrow-black.svg"
+                        alt="стрелка вниз"
+                    >
+                </div>
             </div>
+
             <ul class="main-page__list">
                 <li class="main-page__list-item">
                     <img class="main-page__img" src="./images/niculin-90px.png">

@@ -1,0 +1,7 @@
+.events__view-type {
+    width: 328px;
+    height: 30px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+}

@@ -153,6 +153,13 @@
 @import url(../blocks/main-page/__info/main-page__info.css);
 @import url(../blocks/news/__list/_main-page/news__list_main-page.css);
 
+/* EVENTS main-page */
+
+@import url(../blocks/events/__view-type/events__view-type.css);
+@import url(../blocks/events/__filter-box/events__filter-box.css);
+@import url(../blocks/events/__filter-btn/events__filter-btn.css);
+@import url(../blocks/events/__filter-btn-box/events__filter-btn-box.css);
+
 /* footer */
 
 @import url(../blocks/footer/footer.css);
@@ -172,5 +179,13 @@
 @import url(../blocks/save-btn/save-btn.css);
 @import url(../blocks/save-btn/_saved/save-btn_saved.css);
 
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_white/button_white.css);
+@import url(../blocks/button/_text-color/button_text-color-blue.css);
+@import url(../blocks/button/_left/button_left.css);
+@import url(../blocks/button/_right/button_right.css);
+@import url(../blocks/button/_events-heading-box/button_events-heading-box.css);
+@import url(../blocks/button/_text-color/button_text-color-white.css);
+@import url(../blocks/button/_blue/button_blue.css);
 
 @import url(../blocks/display-none.css);

@@ -1,0 +1,6 @@
+.events__filter-box {
+    margin: 15px 0 20px;
+    width: 100%;
+    display: flex;
+    gap: 6px;
+}
