@@ -1,0 +1,7 @@
+.event__heading-container {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}

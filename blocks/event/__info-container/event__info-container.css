@@ -1,0 +1,9 @@
+.event__info-container {
+    margin: 0;
+    margin-bottom: 24pxs;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    gap: 20px;
+}
