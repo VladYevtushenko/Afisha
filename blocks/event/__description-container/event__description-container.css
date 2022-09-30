@@ -1,0 +1,8 @@
+.event__description-container {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
