@@ -161,6 +161,10 @@
 @import url(../blocks/events/__filter-btn/events__filter-btn.css);
 @import url(../blocks/events/__filter-btn-box/events__filter-btn-box.css);
 
+/* EVENT page */
+
+@import url(../blocks/event/event.css);
+
 /* footer */
 
 @import url(../blocks/footer/footer.css);
