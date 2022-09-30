@@ -155,6 +155,7 @@
 
 /* EVENTS main-page */
 
+@import url(../blocks/events/events.css);
 @import url(../blocks/events/__view-type/events__view-type.css);
 @import url(../blocks/events/__filter-box/events__filter-box.css);
 @import url(../blocks/events/__filter-btn/events__filter-btn.css);
