@@ -743,7 +743,7 @@
 
 <!-- EVENTS main-page -->
 
-        <section class="events">
+        <section class="events display-none">
             <div class="heading-box">
                 <h2 class="heading-box__heading">События</h2>
                 <button 
@@ -973,6 +973,134 @@
                 </li>
             </ul>
         </section>
+
+<!-- EVENT page -->
+
+        <section class="event">
+            <div class="article-view__back-container hover">
+                <img 
+                    class="article-view__btn-arrow-left" 
+                    src="./images/arrow-left-black.svg" 
+                    alt="стрелка влево"
+                >
+                <div class="article-view__back">Назад</div>
+            </div>
+            <img class="event__poster" src="./images/zivert-evt-poster.png" alt="постер">
+            <div class="event__heading-container">
+                <h2 class="event__name">Zivert. Большой сольный концерт</h2>
+                <button class="save-btn save-btn_saved"></button>
+            </div>
+            <ul class="event__info-container">
+                <li class="event__info-box">
+                    <img class="event__info-icon" src="./images/muz-nota-icon.svg" alt="иконка">
+                    <p class="event__info-name">Концерты</p>
+                </li>
+                <li class="event__info-box">
+                    <img class="event__info-icon" src="./images/calendar-icon.svg" alt="иконка">
+                    <p class="event__info-name">9 сентября 20:00</p>
+                </li>
+                <li class="event__info-box">
+                    <img class="event__info-icon" src="./images/ticket-icon.svg" alt="иконка">
+                    <p class="event__info-name">Стоимость билета: 18 000 Т</p>
+                </li>
+                <li class="event__info-box">
+                    <img class="event__info-icon" src="./images/geo-position-icon-blue.svg" alt="иконка">
+                    <p class="event__info-name event__info-name_blue">Концерты</p>
+                </li>
+            </ul>
+
+            <div class="event__description-container">
+                <p class="event__description">
+                    Юлия Zivert – молодая, яркая, смелая; эта девушка стремительно изменила жизнь, посвятив себя музыке, и вместе с тем завоевала любовь тысяч поклонников.
+                </p>
+                <p class="event__description">
+                    Популярность пришла к Zivert после выхода дебютного мини-альбома, получившего лаконичное и жизнеутверждающие название «Сияй». EP, наполненный простым вечным смыслом в сочетании с сочными...
+                </p>
+            </div>
+
+            <div class="heading-box">
+                <h2 class="heading-box__heading">Другие события</h2>
+                <button class="blue-btn hover">Все события</button>
+            </div>
+            <ul class="main-page__list">
+                <li class="main-page__list-item">
+                    <img class="main-page__img" src="./images/niculin-90px.png">
+                    <div class="main-page__event-info">
+                        <h2 class="main-page__item-name">Легендарный цирк Юрия Никулина!</h2>
+                        <div class="main-page__info-box">
+                            <img 
+                                src="./images/calendar-icon.svg" 
+                                alt="иконка календаря" 
+                                class="main-page__info-icon"
+                            >
+                            <p class="main-page__info">9 сентября 14:00</p>
+                        </div>
+                        <div class="main-page__info-box">
+                            <img 
+                                src="./images/geo-position-icon.svg" 
+                                alt="иконка календаря" 
+                                class="main-page__info-icon"
+                            >
+                            <p class="main-page__info">Халык Арена</p>
+                        </div>
+                    </div>
+                    <button class="save-btn"></button>
+                </li>
+
+                <li class="main-page__list-item">
+                    <img class="main-page__img" src="./images/zivert.png">
+                    <div class="main-page__event-info">
+                        <h2 class="main-page__item-name">Zivert. Большой сольный концерт</h2>
+                        <div class="main-page__info-box">
+                            <img 
+                                src="./images/calendar-icon.svg" 
+                                alt="иконка календаря" 
+                                class="main-page__info-icon"
+                            >
+                            <p class="main-page__info">12 сентября 20:00 </p>
+                        </div>
+                        <div class="main-page__info-box">
+                            <img 
+                                src="./images/geo-position-icon.svg" 
+                                alt="иконка календаря" 
+                                class="main-page__info-icon"
+                            >
+                            <p class="main-page__info">Халык Арена</p>
+                        </div>
+                    </div>
+                    <button class="save-btn save-btn_saved"></button>
+                </li>
+
+                <li class="main-page__list-item">
+                    <img class="main-page__img" src="./images/manizha.png">
+                    <div class="main-page__event-info">
+                        <h2 class="main-page__item-name">MANIZHA Неотменяемый тур</h2>
+                        <div class="main-page__info-box">
+                            <img 
+                                src="./images/calendar-icon.svg" 
+                                alt="иконка календаря" 
+                                class="main-page__info-icon"
+                            >
+                            <p class="main-page__info">20 сентября 20:00 </p>
+                        </div>
+                        <div class="main-page__info-box">
+                            <img 
+                                src="./images/geo-position-icon.svg" 
+                                alt="иконка календаря" 
+                                class="main-page__info-icon"
+                            >
+                            <p class="main-page__info">BLA BLA BAR</p>
+                        </div>
+                    </div>
+                    <button class="save-btn"></button>
+                </li>
+            </ul>
+
+            <div class="comments-page__write-btn-box">
+                <button class="comments-page__write-btn hover">Написать комментарий</button>
+            </div>
+        </section>
+
     </div>
 
     <footer class="footer">
