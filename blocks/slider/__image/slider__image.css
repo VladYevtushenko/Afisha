@@ -1,0 +1,8 @@
+.slider__image {
+    background-image: url(../../../images/halyk-arena.png);
+    width: 100%;
+    min-width: 320px;
+    min-height: 186px;
+    position: relative;
+    background-repeat: no-repeat;
+}
