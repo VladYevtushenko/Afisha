@@ -976,7 +976,7 @@
 
 <!-- EVENT page -->
 
-        <section class="event">
+        <section class="event display-none">
             <div class="article-view__back-container hover">
                 <img 
                     class="article-view__btn-arrow-left" 
@@ -1104,9 +1104,217 @@
             </div>
         </section>
 
+        <!-- PLACE page -->
+
+        <section class="place">
+            <div class="article-view__back-container hover">
+                <img 
+                    class="article-view__btn-arrow-left" 
+                    src="./images/arrow-left-black.svg" 
+                    alt="стрелка влево"
+                >
+                <div class="article-view__back">Назад</div>
+            </div>
+            <div class="slider slider_main-page">
+                <img 
+                    class="slider__img slider__img_main-page" 
+                    src="./images/halyk-arena.png" 
+                    alt="халык арена"
+                >
+                <div class="slider__dots-box">
+                    <img 
+                        class="slider__dot hover" 
+                        src="./images/Ellipse-dot-slider.svg" 
+                        alt="символ точки"
+                    >
+                    <img 
+                        class="slider__dot hover" 
+                        src="./images/Ellipse-dot-slider-gray.svg" 
+                        alt="символ точки"
+                    >
+                    <img 
+                        class="slider__dot hover" 
+                        src="./images/Ellipse-dot-slider-gray.svg" 
+                        alt="символ точки"
+                    >
+                    <img 
+                        class="slider__dot hover" 
+                        src="./images/Ellipse-dot-slider-gray.svg" 
+                        alt="символ точки"
+                    >
+                </div>
+            </div>
+            <div class="place__info-conatiner">
+                <div class="palce__name-box">
+                    <h2 class="place__name">Halyk Arena</h2>
+                    <button class="save-btn save-btn_saved hover"></button>
+                </div>
+                <div class="place__adress_box">
+                    <img 
+                        class="place__geo-icon" 
+                        src="/images/geo-position-icon.svg"
+                        alt="значок гео-позиции"
+                    >
+                    <p class="place__adress">​г. Алматы, Медеуский район, 
+                        Кульджинский тракт - 2</p>
+                </div>
+                <div class="place__insta-link-box">
+                    <img 
+                        class="place__insta-icon"
+                        src="./images/insta-icon.svg"
+                        alt="иконка инстаграм"
+                    >
+                    <p class="place__insta-link">@halyk_arena</p>
+                </div>
+            </div>
+            <div class="palce__audio-guide-box">
+                <h3 class="place__audio-guide-heading"> Аудио гид</h3>
+                <div class="audio-guide__player">
+                    <img 
+                        class="audio-guide__play-btn"
+                        src="./images/play-btn.svg" 
+                        alt="кнопка воспроизвести"
+                    >
+                    <p class="audio-guide__file-name">Halyk Arena</p>
+                    <img 
+                        class="audio-guide__volume-btn"
+                        src="./images/AG-volume-btn.svg" 
+                        alt="кнопка громкости"
+                    >
+                </div>
+            </div>
+            <p class="place__description">
+                После победы заявки Алма-Аты на проведение Зимней Универсиады 2017 и поданной заявки на проведение Зимних Олимпийских игр 2022 ....
+            </p>
+            <button class="place__read-more-btn hover">
+                <p class="place__readm-more-btn-text">Чиать подробнее</p>
+                <img 
+                    class="place__read-btn-arrow"
+                    src="./images/down-arrow-blue-icon.svg" 
+                    alt="стрелка вниз"
+                >
+            </button>
+            <div class="place__map">
+                <img 
+                    class="view-btn"
+                    src="./images/view-btn.svg" 
+                    alt="кнопка просмотра"
+                >
+            </div>
+            <ul class="article__nav-bar">
+                <li class="nav-bar__item nav-bar__item_main">
+                    <button class="nav-bar__btn nav-bar__btn_comment hover"></button>
+                    <p class="nav-bar__comment-counter">234</p>
+                    <button class="nav-bar__btn nav-bar__btn_saved hover"></button>
+                    <button class="nav-bar__btn nav-bar__btn_share hover"></button>
+                </li>
+                <li class="nav-bar__item nav-bar__item_likes">
+                    <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                    <p class="nav-bar__likes-counter">25</p>
+                    <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                </li>
+            </ul>
+            <div class="article-view__comments-box">
+                <h2 class="article-view__comments-heading">Комментарии</h2>
+                <p class="article-view__comments-number">135</p>
+                <button class="article-view__write-btn hover">Написать</button>
+            </div>
+            <ul class="comments-list">
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Артур Артуров</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">25</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Отлично! Очень нравится</p>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Madina A</h2>
+                            <p class="article__user-last-seen">23 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__likes-counter">15</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Отлично! Очень нравится</p>
+                    <div class="comments-list__comment-answer-btn-container hover">
+                        <button class="comments-list__comment-answer-btn hover">3 ответа</button>
+                        <img 
+                            src="./images/down-arrow-blue-icon.svg" 
+                            class="comments-list__comment-answer-arrow" 
+                            alt="стрелка вниз">
+                    </div>
+                </li>
+
+                <li class="article__user-container article__user-container_type_comments">
+                    <div class="article__user-info-box article__user-info-box_comments">
+                        <img class="article__user-ava" src="./images/ava.jpg" alt="аватар пользователя">
+                        <div class="article__user-info">
+                            <h2 class="article__user-name">Azamat Askhatali</h2>
+                            <p class="article__user-last-seen">2 часа назад</p>
+                        </div>
+                        <div class="nav-bar__item nav-bar__item_likes nav-bar__item_comments">
+                            <button class="nav-bar__btn nav-bar__btn_down-arrow hover"></button>
+                            <p class="nav-bar__dislikes-counter">-2</p>
+                            <button class="nav-bar__btn nav-bar__btn_up-arrow hover"></button>
+                        </div>
+                    </div>
+                    <p class="article__user-comment">Нууууу такое себе, честно говоря</p>
+                </li>
+            </ul>
+            <button class="comments-list__shaw-all-comments-btn hover">Открыть все</button>
+            <div class="article-view__comments-box">
+                <h2 class="article-view__comments-heading">Статьи по теме</h2>
+                <button class="article-view__write-btn hover">Все статьи</button>
+            </div>
+            <ul class="news">
+                <li class="news__list hover">
+                    <div class="news__item">
+                        <img src="./images/rest-almaty.png" alt="фото ресторана" class="news__photo">
+                        <div class="news__info-box">
+                            <p class="news__date">Сегодня 14:00 </p>
+                            <p class="news__name">Куда сходить в Алматы этой осенью?</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="news__list hover">
+                    <div class="news__item">
+                        <img src="./images/rest-almaty.png" alt="фото ресторана" class="news__photo">
+                        <div class="news__info-box">
+                            <p class="news__date">Сегодня 14:00 </p>
+                            <p class="news__name">Куда сходить в Алматы этой осенью?</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="news__list hover">
+                    <div class="news__item">
+                        <img src="./images/rest-almaty.png" alt="фото ресторана" class="news__photo">
+                        <div class="news__info-box">
+                            <p class="news__date">Сегодня 14:00 </p>
+                            <p class="news__name">Куда сходить в Алматы этой осенью?</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="comments-list__shaw-all-comments-btn hover">Загрузить еще</button>
+        </section>
+
     </div>
 
-    <footer class="footer">
+    <footer class="footer display-none">
         <ul class="footer__items">
             <li class="footer__item">
                 <button class="footer__btn footer__btn_home hover"></button>
