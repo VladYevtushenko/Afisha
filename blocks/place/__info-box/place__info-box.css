@@ -1,0 +1,5 @@
+.place__info-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
