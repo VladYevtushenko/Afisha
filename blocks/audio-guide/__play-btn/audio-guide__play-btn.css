@@ -1,0 +1,7 @@
+.audio-guide__play-btn {
+    margin-right: 16px;
+    object-position: center;
+    object-fit: contain;
+    width: 42px;
+    height: 42px;
+}

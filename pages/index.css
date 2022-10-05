@@ -189,6 +189,15 @@
 @import url(../blocks/place/__adress/place__adress.css);
 @import url(../blocks/place/__insta-icon/place__insta-icon.css);
 @import url(../blocks/place/__insta-link/place__insta-link.css);
+@import url(../blocks/place/__audio-guide-box/palce__audio-guide-box.css);
+@import url(../blocks/place/__audio-guide-heading/place__audio-guide-heading.css);
+
+/* audi-guide */
+
+@import url(../blocks/audio-guide/audio-guide.css);
+@import url(../blocks/audio-guide/__play-btn/audio-guide__play-btn.css);
+@import url(../blocks/audio-guide/__file-name/audio-guide__file-name.css);
+@import url(../blocks/audio-guide/__volume-btn/audio-guide__volume-btn.css);
 
 /* footer */
 
