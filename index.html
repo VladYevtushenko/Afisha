@@ -388,7 +388,7 @@
 
 <!-- comments-page -->
 
-        <section class="comments-page">
+        <section class="comments-page display-none">
             <div class="comments-page__close-btn">
                 <button class="close-btn hover"></button>
             </div>
@@ -1198,7 +1198,7 @@
 
         <!-- PLACE page -->
 
-        <section class="place">
+        <section class="place display-none">
             <div class="article-view__back-container hover">
                 <img 
                     class="article-view__btn-arrow-left" 
@@ -1428,9 +1428,18 @@
             <button class="comments-list__shaw-all-comments-btn hover">Загрузить еще</button>
         </section>
 
+        <!-- SEARCH form -->
+
+        <form class="search-form">
+            <button class="close-btn close-btn_serch-form hover"></button>
+            <h2 class="serch-form__heading">Поиск</h2>
+            <!-- <label class="search-form__input-lable"></label> -->
+            <input type="search" class="serch-form__input" placeholder="Введите название">
+        </form>
+
     </div>
 
-    <footer class="footer display-none">
+    <footer class="footer">
         <ul class="footer__items">
             <li class="footer__item">
                 <button class="footer__btn footer__btn_home hover"></button>
