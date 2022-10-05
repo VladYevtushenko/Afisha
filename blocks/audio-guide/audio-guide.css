@@ -1,0 +1,11 @@
+.audio-guide {
+    width: 328px;
+    margin: 12px auto 24px 16px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #EBF1F8;
+}

@@ -1,0 +1,10 @@
+.place__map {
+    background-image: url(../../../images/halyk-arena-map.png);
+    width: 90%;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    position: relative;
+}

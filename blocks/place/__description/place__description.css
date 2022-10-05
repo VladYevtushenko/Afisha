@@ -1,0 +1,10 @@
+.place__description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    width: 90%;
+    margin: 0 auto 13px;
+    height: 80px;
+}
