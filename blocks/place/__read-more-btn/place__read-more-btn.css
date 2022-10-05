@@ -1,0 +1,10 @@
+.place__read-more-btn {
+    width: 90%;
+    margin: 0 auto 29px;
+    border: none;
+    background-color: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -114,6 +114,7 @@
 @import url(../blocks/comments-list/__comment-answer-btn-container/comments-list__comment-answer-btn-container.css);
 @import url(../blocks/comments-list/__comment-answer-btn/comments-list__comment-answer-btn.css);
 @import url(../blocks/comments-list/__shaw-all-comments-btn/comments-list__shaw-all-comments-btn.css);
+@import url(../blocks/comments-list/__comment-btn/comments-list__comment-btn.css);
 
 /* news */
 
@@ -191,6 +192,10 @@
 @import url(../blocks/place/__insta-link/place__insta-link.css);
 @import url(../blocks/place/__audio-guide-box/palce__audio-guide-box.css);
 @import url(../blocks/place/__audio-guide-heading/place__audio-guide-heading.css);
+@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/place/__read-more-btn/place__read-more-btn.css);
+@import url(../blocks/place/__readm-more-btn-text/place__readm-more-btn-text.css);
+@import url(../blocks/place/__map/place__map.css);
 
 /* audi-guide */
 
@@ -231,5 +236,4 @@
 
 
 @import url(../blocks/view-btn/view-btn.css);
-
 @import url(../blocks/display-none.css);
