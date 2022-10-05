@@ -1,0 +1,13 @@
+.serch-form__input {
+    border-radius: 14px;
+    height: 44px;
+    border: 1px solid #105FF9;
+}
+
+.serch-form__input::-webkit-input-placeholder {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #8C95A6;
+}

@@ -132,6 +132,7 @@
 @import url(../blocks/comments-page/comments-page.css);
 @import url(../blocks/comments-page/__close-btn/comments-page__close-btn.css);
 @import url(../blocks/close-btn/close-btn.css);
+@import url(../blocks/close-btn/_serch-form/close-btn_serch-form.css);
 @import url(../blocks/news/__photo/_comments-page/news__photo_comments-page.css);
 @import url(../blocks/comments-page/__heading-box/comments-page__heading-box.css);
 @import url(../blocks/comments-page/__heading/comments-page__heading.css);
@@ -203,6 +204,13 @@
 @import url(../blocks/audio-guide/__play-btn/audio-guide__play-btn.css);
 @import url(../blocks/audio-guide/__file-name/audio-guide__file-name.css);
 @import url(../blocks/audio-guide/__volume-btn/audio-guide__volume-btn.css);
+
+/* SERCH form */
+
+@import url(../blocks/serch-form/search-form.css);
+@import url(../blocks/serch-form/__heading/serch-form__heading.css);
+@import url(../blocks/serch-form/__input/serch-form__input.css);
+@import url(../blocks/serch-form/__input-lable/search-form__input-lable.css);
 
 /* footer */
 
