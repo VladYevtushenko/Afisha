@@ -1,0 +1,12 @@
+.registration__input-container {
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ECF0F5;
+    border: 1px solid #BAC7D9;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 42px;
+}

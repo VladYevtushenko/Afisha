@@ -1,0 +1,9 @@
+.flag-img {
+    border-radius: 2px;
+    width: 24px;
+    height: 16px;
+    object-fit: contain;
+    object-position: center;
+    margin-left: 20px;
+    margin-right: 16px;
+}
