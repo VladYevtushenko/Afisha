@@ -132,6 +132,7 @@
 @import url(../blocks/comments-page/comments-page.css);
 @import url(../blocks/comments-page/__close-btn/comments-page__close-btn.css);
 @import url(../blocks/close-btn/close-btn.css);
+@import url(../blocks/close-btn/__container/close-btn__container.css);
 @import url(../blocks/close-btn/_serch-form/close-btn_serch-form.css);
 @import url(../blocks/news/__photo/_comments-page/news__photo_comments-page.css);
 @import url(../blocks/comments-page/__heading-box/comments-page__heading-box.css);
@@ -212,6 +213,19 @@
 @import url(../blocks/serch-form/__heading/serch-form__heading.css);
 @import url(../blocks/serch-form/__input/serch-form__input.css);
 @import url(../blocks/serch-form/__input-lable/search-form__input-lable.css);
+
+/* registration */
+
+@import url(../blocks/registration/registration.css);
+@import url(../blocks/registration/__form/registration__form.css);
+@import url(../blocks/registration/__form-name/registration__form-name.css);
+@import url(../blocks/registration/__instruction/registration__instruction.css);
+@import url(../blocks/registration/__input-container/registration__input-container.css);
+@import url(../blocks/registration/__input-mobile/registrstion__input-mobile.css);
+@import url(../blocks/registration/__back-link/registration__back-link.css);
+@import url(../blocks/registration/__back-link-text/registration__back-link-text.css);
+
+@import url(../blocks/flag-img/flag-img.css);
 
 /* footer */
 
