@@ -1,0 +1,13 @@
+.registration__input-code {
+    width: 48px;
+    height: 64px;
+    background: #ECF0F5;
+    border: 1px solid #BAC7D9;
+    border-radius: 12px;
+    text-align: center;    
+}
+
+.registration__input-code::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
