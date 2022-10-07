@@ -22,6 +22,7 @@
             <button class="header__btn header__btn_notice hover"></button>
         </nav>
     </header>
+
     <div class="main">
 
 <!-- articles (список статей) -->
@@ -1484,11 +1485,19 @@
                 <div class="close-btn__container">
                     <button class="close-btn"></button>
                 </div>
-                <h2 class="registration__form-name">Регистрация</h2>
-                <p class="registration__instruction">
+                <h2 class="registration__form-name display-none">Регистрация</h2>
+
+                <h2 class="registration__form-name">Введите СМС-код</h2>
+
+                <p class="registration__instruction display-none">
                     Введите номер вашего телефона для получения СМС-кода
                 </p>
-                <fieldset class="registration__input-container">
+
+                <p class="registration__instruction">
+                    На ваш номер +7 778 908 34 49 выслан код с одноразовым паролем
+                </p>
+
+                <fieldset class="registration__input-container display-none">
                     <img class="flag-img" src="./images/KZ-flag.svg" alt="флаг РК">
                     <input 
                         type="tel" 
@@ -1497,11 +1506,51 @@
                         pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
                     >
                 </fieldset>
-                <a class="registration__back-link" href="#">
+
+                <fieldset 
+                    class="registration__input-container registration__input-container_code"
+                >
+                    <input 
+                        type="number" 
+                        inputmode="numeric"
+                        class="registration__input-code"
+                        step="1" 
+                        min="0" 
+                        max="9"
+                    >
+                    <input 
+                        type="number" 
+                        class="registration__input-code"
+                        step="1" 
+                        min="0" 
+                        max="9"
+                    >
+                    <input 
+                        type="number" 
+                        class="registration__input-code"
+                        step="1" 
+                        min="0" 
+                        max="9"
+                    >
+                    <input 
+                        type="number" 
+                        class="registration__input-code"
+                        step="1" 
+                        min="0" 
+                        max="9"
+                    >
+                </fieldset>
+
+                <div class="registration__repeat-code-container">
+                    <button class="registration__repeat-code hover">Выслать повторно через</button>
+                    <p class="registration__timer">53 секунды</p>
+                </div>
+                <a class="registration__back-link display-none" href="#">
                     <img class="registration__back-link-incon" src="./images/link-icon.svg" alt="иконка возврата">
                     <p class="registration__back-link-text">Уже есть аккаунт?</p> 
                 </a>
             </form>
+            <button class="registration__continue-btn hover">Продолжить</button>
         </section>
 
     </div>

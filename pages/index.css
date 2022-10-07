@@ -221,9 +221,15 @@
 @import url(../blocks/registration/__form-name/registration__form-name.css);
 @import url(../blocks/registration/__instruction/registration__instruction.css);
 @import url(../blocks/registration/__input-container/registration__input-container.css);
+@import url(../blocks/registration/__input-container/_code/registration__input-container_code.css);
 @import url(../blocks/registration/__input-mobile/registrstion__input-mobile.css);
 @import url(../blocks/registration/__back-link/registration__back-link.css);
 @import url(../blocks/registration/__back-link-text/registration__back-link-text.css);
+@import url(../blocks/registration/__input-code/registration__input-code.css);
+@import url(../blocks/registration/__repeat-code/registration__repeat-code.css);
+@import url(../blocks/registration/__repeat-code-container/registration__repeat-code-container.css);
+@import url(../blocks/registration/__timer/registration__timer.css);
+@import url(../blocks/registration/__continue-btn/registration__continue-btn.css);
 
 @import url(../blocks/flag-img/flag-img.css);
 

@@ -1,0 +1,12 @@
+.registration__continue-btn {
+    width: 360px;
+    height: 48px;
+    margin: 0 auto;
+    background: #105FF9;;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}

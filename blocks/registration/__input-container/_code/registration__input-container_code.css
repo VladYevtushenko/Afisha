@@ -1,0 +1,8 @@
+.registration__input-container_code {
+    height: 64px;
+    margin-bottom: 42px;
+    justify-content: center;
+    border: none;
+    background-color: unset;
+    gap: 8px;
+}
