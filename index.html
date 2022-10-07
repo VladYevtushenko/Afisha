@@ -1513,7 +1513,7 @@
                     <input 
                         type="number" 
                         inputmode="numeric"
-                        class="registration__input-code"
+                        class="registration__input-code registration__input-code_reject"
                         step="1" 
                         min="0" 
                         max="9"
@@ -1527,7 +1527,7 @@
                     >
                     <input 
                         type="number" 
-                        class="registration__input-code"
+                        class="registration__input-code registration__input-code_reject"
                         step="1" 
                         min="0" 
                         max="9"
@@ -1541,16 +1541,22 @@
                     >
                 </fieldset>
 
-                <div class="registration__repeat-code-container">
+                <div class="registration__repeat-code-container display-none">
                     <button class="registration__repeat-code hover">Выслать повторно через</button>
                     <p class="registration__timer">53 секунды</p>
                 </div>
+
+                <div class="registration__repeat-code-container">
+                    <p class="registration__warning">Неверный код</p>
+                    <button class="registration__repeat-code registration__repeat-code_repeat hover">Отправить повторно</button>
+                </div>
+
                 <a class="registration__back-link display-none" href="#">
                     <img class="registration__back-link-incon" src="./images/link-icon.svg" alt="иконка возврата">
                     <p class="registration__back-link-text">Уже есть аккаунт?</p> 
                 </a>
             </form>
-            <button class="registration__continue-btn hover">Продолжить</button>
+            <button class="registration__continue-btn registration__continue-btn_disabled hover">Продолжить</button>
         </section>
 
     </div>
