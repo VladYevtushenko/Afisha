@@ -234,6 +234,11 @@
 @import url(../blocks/registration/__repeat-code/_repeat/registration__repeat-code_repeat.css);
 @import url(../blocks/registration/__continue-btn/registration__continue-btn.css);
 @import url(../blocks/registration/__continue-btn/_disabled/registration__continue-btn_disabled.css);
+@import url(../blocks/registration/__continue-btn/_password/registration__continue-btn_password.css);
+@import url(../blocks/registration/__warning/_timeout/registration__warning_timeout.css);
+@import url(../blocks/registration/__input-container/_password/registration__input-container_password.css);
+@import url(../blocks/registration/__input-password/registrstion__input-password.css);
+
 
 @import url(../blocks/flag-img/flag-img.css);
 
