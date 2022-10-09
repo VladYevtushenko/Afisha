@@ -1487,14 +1487,20 @@
                 </div>
                 <h2 class="registration__form-name display-none">Регистрация</h2>
 
-                <h2 class="registration__form-name">Введите СМС-код</h2>
+                <h2 class="registration__form-name display-none">Введите СМС-код</h2>
+
+                <h2 class="registration__form-name">Придумайте пароль</h2>
 
                 <p class="registration__instruction display-none">
                     Введите номер вашего телефона для получения СМС-кода
                 </p>
 
-                <p class="registration__instruction">
+                <p class="registration__instruction display-none">
                     На ваш номер +7 778 908 34 49 выслан код с одноразовым паролем
+                </p>
+
+                <p class="registration__instruction">
+                    Введите пароль на латинице, минимально 6 символов
                 </p>
 
                 <fieldset class="registration__input-container display-none">
@@ -1507,9 +1513,7 @@
                     >
                 </fieldset>
 
-                <fieldset 
-                    class="registration__input-container registration__input-container_code"
-                >
+                <fieldset class="registration__input-container registration__input-container_code display-none">
                     <input 
                         type="number" 
                         inputmode="numeric"
@@ -1541,13 +1545,41 @@
                     >
                 </fieldset>
 
+                <fieldset class="registration__input-container registration__input-container_password">
+                    <input 
+                        type="password" 
+                        class="registrstion__input-password"
+                        placeholder="Введите пароль"
+                        minlength="6"
+                    >
+                    <img 
+                        class="registration__password-ok"
+                        src="./images/ok-green-icon.svg"
+                        alt="OK icon"
+                    >
+                </fieldset>
+
+                <fieldset class="registration__input-container registration__input-container_password">
+                    <input 
+                        type="password" 
+                        class="registrstion__input-password"
+                        placeholder="Подтвердите пароль"
+                        minlength="6"
+                    >
+                    <img 
+                        class="registration__password-ok"
+                        src="./images/ok-green-icon.svg"
+                        alt="OK icon"
+                    >
+                </fieldset>
+
                 <div class="registration__repeat-code-container display-none">
                     <button class="registration__repeat-code hover">Выслать повторно через</button>
                     <p class="registration__timer">53 секунды</p>
                 </div>
 
-                <div class="registration__repeat-code-container">
-                    <p class="registration__warning display-none">Неверный код</p>
+                <div class="registration__repeat-code-container display-none">
+                    <p class="registration__warning">Неверный код</p>
 
                     <p class="registration__warning registration__warning_timeout">Время ожидания истекло</p>
 
@@ -1559,7 +1591,7 @@
                     <p class="registration__back-link-text">Уже есть аккаунт?</p> 
                 </a>
             </form>
-            <button class="registration__continue-btn registration__continue-btn_disabled hover">Продолжить</button>
+            <button class="registration__continue-btn registration__continue-btn_disabled registration__continue-btn_password hover">Продолжить</button>
         </section>
 
     </div>
