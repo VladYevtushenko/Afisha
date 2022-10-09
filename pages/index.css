@@ -234,6 +234,7 @@
 @import url(../blocks/registration/__repeat-code/_repeat/registration__repeat-code_repeat.css);
 @import url(../blocks/registration/__continue-btn/registration__continue-btn.css);
 @import url(../blocks/registration/__continue-btn/_disabled/registration__continue-btn_disabled.css);
+@import url(../blocks/registration/__warning/_timeout/registration__warning_timeout.css);
 
 @import url(../blocks/flag-img/flag-img.css);
 
