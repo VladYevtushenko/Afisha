@@ -1480,7 +1480,7 @@
 
 <!-- registration form -->
 
-        <section class="registration">
+        <section class="registration display-none">
             <form class="registration__form">
                 <div class="close-btn__container">
                     <button class="close-btn"></button>
@@ -1592,6 +1592,36 @@
                 </a>
             </form>
             <button class="registration__continue-btn registration__continue-btn_disabled registration__continue-btn_password hover">Продолжить</button>
+        </section>
+
+        <section class="registration">
+            <form class="registration__form">
+                <div class="close-btn__container close-btn__container_reg-prof">
+                    <img 
+                        src="./images/arrow-left-black.svg" 
+                        alt="стрелка влево"
+                        class="left-arrow-btn hover"
+                    >
+                    <button class="back-btn hover">Назад</button>
+                    <button class="close-btn close-btn_reg-prof hover"></button>
+                </div>
+                <h2 class="registration__form-name">Заполните профиль</h2>
+                <div class="registration__prof-icon-box">
+                    <img 
+                        src="./images/prof-icon.svg" 
+                        alt="иконка профайла"
+                        class="registration__prof-icon"
+                    >
+                </div>
+                <button class="prof-icon-change-btn hover">Загрузите фото</button>
+                <fieldset class="registration__input-container registration__input-container_profile">
+                    <input 
+                        class="registrstion__input-prof-name"
+                        placeholder="Ваше имя"
+                    >
+                </fieldset>
+            </form>
+            <button class="registration__continue-btn registration__continue-btn_profile hover">Завершить</button>
         </section>
 
     </div>

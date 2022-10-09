@@ -238,6 +238,17 @@
 @import url(../blocks/registration/__warning/_timeout/registration__warning_timeout.css);
 @import url(../blocks/registration/__input-container/_password/registration__input-container_password.css);
 @import url(../blocks/registration/__input-password/registrstion__input-password.css);
+@import url(../blocks/close-btn/__container/_reg-prof/close-btn__container_reg-prof.css);
+@import url(../blocks/registration/__prof-icon-box/registration__prof-icon-box.css);
+@import url(../blocks/registration/__prof-icon/registration__prof-icon.css);
+@import url(../blocks/registration/__input-container/_profile/registration__input-container_profile.css);
+@import url(../blocks/registration/__input-prof-name/registrstion__input-prof-name.css);
+
+
+@import url(../blocks/left-arrow-btn/left-arrow-btn.css);
+@import url(../blocks/back-btn/back-btn.css);
+@import url(../blocks/close-btn/_reg-prof/close-btn_reg-prof.css);
+@import url(../blocks/prof-icon-change-btn/prof-icon-change-btn.css);
 
 
 @import url(../blocks/flag-img/flag-img.css);
