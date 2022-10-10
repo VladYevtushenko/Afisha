@@ -1067,6 +1067,146 @@
             </ul>
         </section>
 
+<!-- EVENTS calendar by day  -->
+
+    <section class="events">
+        <div class="heading-box">
+            <h2 class="heading-box__heading">События</h2>
+            <button 
+                class="button button_white button_text-color-blue button_events-heading-box hover"
+            >+ Добавить событие</button>
+        </div>
+
+        <div class="events__view-type">
+            <button 
+                class="button button_left button_blue button_text-color-white hover"
+            >Календарь</button>
+            <button 
+                class="button button_right button_white hover"
+            >Список</button>
+        </div>
+
+        <div class="events__filter-box">
+            <div class="events__filter-btn-boxr">
+                <button class="events__filter-btn hover">Октябрь</button>
+                <img 
+                    class="events__filter-btn-arrow" 
+                    src="./images/down-arrow-black.svg"
+                    alt="стрелка вниз"
+                >
+            </div>
+            <div class="events__filter-btn-box">
+                <button class="events__filter-btn hover">Все события</button>
+                <img 
+                    class="events__filter-btn-arrow" 
+                    src="./images/down-arrow-black.svg"
+                    alt="стрелка вниз"
+                >
+            </div>
+        </div>
+        
+        <div class="events__date-container">
+            <time class="events__date">04 Октября</time>
+            <div class="events__today-icon">Сегодня</div>
+        </div>
+
+        <div class="events__container">
+            <ul class="events__list">
+
+                <li class="events__item">
+                    <img 
+                        class="event__poster"
+                        src="./images/niculin-90px.png"
+                        alt="постер события"
+                    >
+                    <button class="save-btn"></button>
+                    <p class="event__name">Легендарный цирк Юрия Никулина!</p>
+                    <div class="event__category-box">
+                        <img 
+                            class="event__category-icon" 
+                            src="./images/circus-red.svg" 
+                            alt="иконка-цирк"
+                        >
+                        <h3 class="event__category-name">Цирк</h3>
+                    </div>
+                </li>
+
+                <li class="events__item">
+                    <img 
+                        class="event__poster"
+                        src="./images/zivert-evt-poster.png"
+                        alt="постер события"
+                    >
+                    <button class="save-btn"></button>
+                    <p class="event__name">Zivert. Большой сольный концерт</p>
+                    <div class="event__category-box">
+                        <img 
+                            class="event__category-icon" 
+                            src="./images/muz-nota-violet.svg" 
+                            alt="иконка-концерты"
+                        >
+                        <h3 class="event__category-name">Концерты</h3>
+                    </div>
+                </li>
+
+                <li class="events__item">
+                    <img 
+                        class="event__poster"
+                        src="./images/manizha.png"
+                        alt="постер события"
+                    >
+                    <button class="save-btn"></button>
+                    <p class="event__name">MANIZHA Неотменяемый тур</p>
+                    <div class="event__category-box">
+                        <img 
+                            class="event__category-icon" 
+                            src="./images/muz-nota-violet.svg" 
+                            alt="иконка-концерты"
+                        >
+                        <h3 class="event__category-name">Концерты</h3>
+                    </div>
+                </li>
+
+                <li class="events__item">
+                    <img 
+                        class="event__poster"
+                        src="./images/psycho.png"
+                        alt="постер события"
+                    >
+                    <button class="save-btn"></button>
+                    <p class="event__name">Нескучная семейная психология (Алматы...</p>
+                    <div class="event__category-box">
+                        <img 
+                            class="event__category-icon" 
+                            src="./images/master-class.svg" 
+                            alt="иконка-цирк"
+                        >
+                        <h3 class="event__category-name">Мастер-классы</h3>
+                    </div>
+                </li>
+
+                <li class="events__item">
+                    <img 
+                        class="event__poster"
+                        src="./images/niculin-90px.png"
+                        alt="постер события"
+                    >
+                    <button class="save-btn"></button>
+                    <p class="event__name">Кровосток. Впервые в Алматы. Все хиты</p>
+                    <div class="event__category-box">
+                        <img 
+                            class="event__category-icon" 
+                            src="./images/circus-red.svg" 
+                            alt="иконка-цирк"
+                        >
+                        <h3 class="event__category-name">Концерты</h3>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
 <!-- EVENTS selector list -->
 
         <section class="events-selector display-none">
@@ -1594,7 +1734,7 @@
             <button class="registration__continue-btn registration__continue-btn_disabled registration__continue-btn_password hover">Продолжить</button>
         </section>
 
-        <section class="registration">
+        <section class="registration display-none">
             <form class="registration__form">
                 <div class="close-btn__container close-btn__container_reg-prof">
                     <img 
