@@ -165,6 +165,9 @@
 @import url(../blocks/events/__filter-btn/events__filter-btn.css);
 @import url(../blocks/events/__filter-btn-box/events__filter-btn-box.css);
 @import url(../blocks/events-selector/events-selector.css);
+@import url(../blocks/events/__date-container/events__date-container.css);
+@import url(../blocks/events/__date/events__date.css);
+@import url(../blocks/events/__today-icon/events__today-icon.css);
 
 /* EVENT page */
 
@@ -264,6 +267,7 @@
 @import url(../blocks/footer/__btn/_calendar/footer__btn_calendar.css);
 @import url(../blocks/footer/__btn/_saved/footer__btn_saved.css);
 @import url(../blocks/footer/__btn/_user-acc/footer__btn_user-acc.css);
+
 @import url(../blocks/text-btn-active/text-btn-active.css);
 
 

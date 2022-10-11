@@ -586,6 +586,7 @@
                 <h2 class="heading-box__heading">События</h2>
                 <button class="blue-btn hover">Все события</button>
             </div>
+
             <div class="slider slider_main-page">
                 <img class="slider__img slider__img_main-page" src="./images/B-2.png">
                 <div class="slider__dots-box">
@@ -1069,143 +1070,144 @@
 
 <!-- EVENTS calendar by day  -->
 
-    <section class="events">
-        <div class="heading-box">
-            <h2 class="heading-box__heading">События</h2>
-            <button 
-                class="button button_white button_text-color-blue button_events-heading-box hover"
-            >+ Добавить событие</button>
-        </div>
-
-        <div class="events__view-type">
-            <button 
-                class="button button_left button_blue button_text-color-white hover"
-            >Календарь</button>
-            <button 
-                class="button button_right button_white hover"
-            >Список</button>
-        </div>
-
-        <div class="events__filter-box">
-            <div class="events__filter-btn-boxr">
-                <button class="events__filter-btn hover">Октябрь</button>
-                <img 
-                    class="events__filter-btn-arrow" 
-                    src="./images/down-arrow-black.svg"
-                    alt="стрелка вниз"
-                >
+        <section class="events">
+            <div class="heading-box">
+                <h2 class="heading-box__heading">События</h2>
+                <button 
+                    class="button button_white button_text-color-blue button_events-heading-box hover"
+                >+ Добавить событие</button>
             </div>
-            <div class="events__filter-btn-box">
-                <button class="events__filter-btn hover">Все события</button>
-                <img 
-                    class="events__filter-btn-arrow" 
-                    src="./images/down-arrow-black.svg"
-                    alt="стрелка вниз"
-                >
+
+            <div class="events__view-type">
+                <button 
+                    class="button button_left button_blue button_text-color-white hover"
+                >Календарь</button>
+                <button 
+                    class="button button_right button_white hover"
+                >Список</button>
             </div>
-        </div>
-        
-        <div class="events__date-container">
-            <time class="events__date">04 Октября</time>
-            <div class="events__today-icon">Сегодня</div>
-        </div>
 
-        <div class="events__container">
-            <ul class="events__list">
-
-                <li class="events__item">
+            <div class="events__filter-box">
+                <div class="events__filter-btn-boxr">
+                    <button class="events__filter-btn hover">Октябрь</button>
                     <img 
-                        class="event__poster"
-                        src="./images/niculin-90px.png"
-                        alt="постер события"
+                        class="events__filter-btn-arrow" 
+                        src="./images/down-arrow-black.svg"
+                        alt="стрелка вниз"
                     >
-                    <button class="save-btn"></button>
-                    <p class="event__name">Легендарный цирк Юрия Никулина!</p>
-                    <div class="event__category-box">
-                        <img 
-                            class="event__category-icon" 
-                            src="./images/circus-red.svg" 
-                            alt="иконка-цирк"
-                        >
-                        <h3 class="event__category-name">Цирк</h3>
-                    </div>
-                </li>
-
-                <li class="events__item">
+                </div>
+                <div class="events__filter-btn-box">
+                    <button class="events__filter-btn hover">Все события</button>
                     <img 
-                        class="event__poster"
-                        src="./images/zivert-evt-poster.png"
-                        alt="постер события"
+                        class="events__filter-btn-arrow" 
+                        src="./images/down-arrow-black.svg"
+                        alt="стрелка вниз"
                     >
-                    <button class="save-btn"></button>
-                    <p class="event__name">Zivert. Большой сольный концерт</p>
-                    <div class="event__category-box">
-                        <img 
-                            class="event__category-icon" 
-                            src="./images/muz-nota-violet.svg" 
-                            alt="иконка-концерты"
-                        >
-                        <h3 class="event__category-name">Концерты</h3>
-                    </div>
-                </li>
+                </div>
+            </div>
+            
+            <div class="events__date-container">
+                <time class="events__date">04 Октября</time>
+                <div class="events__today-icon-box"></div>
+                <p class="events__today-icon">Сегодня</p>
+            </div>
 
-                <li class="events__item">
-                    <img 
-                        class="event__poster"
-                        src="./images/manizha.png"
-                        alt="постер события"
-                    >
-                    <button class="save-btn"></button>
-                    <p class="event__name">MANIZHA Неотменяемый тур</p>
-                    <div class="event__category-box">
-                        <img 
-                            class="event__category-icon" 
-                            src="./images/muz-nota-violet.svg" 
-                            alt="иконка-концерты"
-                        >
-                        <h3 class="event__category-name">Концерты</h3>
-                    </div>
-                </li>
+            <div class="events__container">
+                <ul class="events__list">
 
-                <li class="events__item">
-                    <img 
-                        class="event__poster"
-                        src="./images/psycho.png"
-                        alt="постер события"
-                    >
-                    <button class="save-btn"></button>
-                    <p class="event__name">Нескучная семейная психология (Алматы...</p>
-                    <div class="event__category-box">
+                    <li class="events__item">
                         <img 
-                            class="event__category-icon" 
-                            src="./images/master-class.svg" 
-                            alt="иконка-цирк"
+                            class="event__poster"
+                            src="./images/niculin-90px.png"
+                            alt="постер события"
                         >
-                        <h3 class="event__category-name">Мастер-классы</h3>
-                    </div>
-                </li>
+                        <button class="save-btn"></button>
+                        <p class="event__name">Легендарный цирк Юрия Никулина!</p>
+                        <div class="event__category-box">
+                            <img 
+                                class="event__category-icon" 
+                                src="./images/circus-red.svg" 
+                                alt="иконка-цирк"
+                            >
+                            <h3 class="event__category-name">Цирк</h3>
+                        </div>
+                    </li>
 
-                <li class="events__item">
-                    <img 
-                        class="event__poster"
-                        src="./images/niculin-90px.png"
-                        alt="постер события"
-                    >
-                    <button class="save-btn"></button>
-                    <p class="event__name">Кровосток. Впервые в Алматы. Все хиты</p>
-                    <div class="event__category-box">
+                    <li class="events__item">
                         <img 
-                            class="event__category-icon" 
-                            src="./images/circus-red.svg" 
-                            alt="иконка-цирк"
+                            class="event__poster"
+                            src="./images/zivert-evt-poster.png"
+                            alt="постер события"
                         >
-                        <h3 class="event__category-name">Концерты</h3>
-                    </div>
-                </li>
+                        <button class="save-btn"></button>
+                        <p class="event__name">Zivert. Большой сольный концерт</p>
+                        <div class="event__category-box">
+                            <img 
+                                class="event__category-icon" 
+                                src="./images/muz-nota-violet.svg" 
+                                alt="иконка-концерты"
+                            >
+                            <h3 class="event__category-name">Концерты</h3>
+                        </div>
+                    </li>
 
-            </ul>
-        </div>
-    </section>
+                    <li class="events__item">
+                        <img 
+                            class="event__poster"
+                            src="./images/manizha.png"
+                            alt="постер события"
+                        >
+                        <button class="save-btn"></button>
+                        <p class="event__name">MANIZHA Неотменяемый тур</p>
+                        <div class="event__category-box">
+                            <img 
+                                class="event__category-icon" 
+                                src="./images/muz-nota-violet.svg" 
+                                alt="иконка-концерты"
+                            >
+                            <h3 class="event__category-name">Концерты</h3>
+                        </div>
+                    </li>
+
+                    <li class="events__item">
+                        <img 
+                            class="event__poster"
+                            src="./images/psycho.png"
+                            alt="постер события"
+                        >
+                        <button class="save-btn"></button>
+                        <p class="event__name">Нескучная семейная психология (Алматы...</p>
+                        <div class="event__category-box">
+                            <img 
+                                class="event__category-icon" 
+                                src="./images/master-class.svg" 
+                                alt="иконка-цирк"
+                            >
+                            <h3 class="event__category-name">Мастер-классы</h3>
+                        </div>
+                    </li>
+
+                    <li class="events__item">
+                        <img 
+                            class="event__poster"
+                            src="./images/niculin-90px.png"
+                            alt="постер события"
+                        >
+                        <button class="save-btn"></button>
+                        <p class="event__name">Кровосток. Впервые в Алматы. Все хиты</p>
+                        <div class="event__category-box">
+                            <img 
+                                class="event__category-icon" 
+                                src="./images/circus-red.svg" 
+                                alt="иконка-цирк"
+                            >
+                            <h3 class="event__category-name">Концерты</h3>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
 
 <!-- EVENTS selector list -->
 
@@ -1763,6 +1765,8 @@
             </form>
             <button class="registration__continue-btn registration__continue-btn_profile hover">Завершить</button>
         </section>
+
+
 
     </div>
 
