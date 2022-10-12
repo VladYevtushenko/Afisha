@@ -6,6 +6,18 @@
     <meta name="author" content="Владислав Евтушенко">
     <title>Афиша</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./blocks/custom-slider/simple-adaptive-slider.css">
+    <script defer src="/scripts/simple-adaptive-slider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        // активация слайдера
+            new ItcSimpleSlider('.itcss', {
+            loop: true,
+            autoplay: false,
+            swipe: true
+            });
+        });
+    </script>
 </head>
 <body class="page">
     <header class="header">
@@ -588,30 +600,29 @@
             </div>
 
             <div class="slider slider_main-page">
-                <img class="slider__img slider__img_main-page" src="./images/B-2.png">
-                <div class="slider__dots-box">
-                    <img 
-                        class="slider__dot hover" 
-                        src="./images/Ellipse-dot-slider.svg" 
-                        alt="символ точки"
-                    >
-                    <img 
-                        class="slider__dot hover" 
-                        src="./images/Ellipse-dot-slider-gray.svg" 
-                        alt="символ точки"
-                    >
-                    <img 
-                        class="slider__dot hover" 
-                        src="./images/Ellipse-dot-slider-gray.svg" 
-                        alt="символ точки"
-                    >
-                    <img 
-                        class="slider__dot hover" 
-                        src="./images/Ellipse-dot-slider-gray.svg" 
-                        alt="символ точки"
-                    >
-                </div>
+                    <div class="itcss">
+                        <div class="itcss__wrapper">
+                            <div class="itcss__items">
+                                <div class="itcss__item">
+                                    <img class="slider__img" src="./images/B-2.png" alt="#">
+                                </div>
+                                <div class="itcss__item">
+                                    <img class="slider__img" src="./images/zivert-evt-poster.png" alt="#">
+                                </div>
+                                <div class="itcss__item">
+                                    <img class="slider__img" src="./images/manizha.png" alt="#">
+                                </div>
+                                <div class="itcss__item">
+                                    <img class="slider__img" src="./images/psycho.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+                    <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button> -->
             </div>
+
+
             <ul class="main-page__list">
                 <li class="main-page__list-item">
                     <img class="main-page__img" src="./images/niculin-90px.png">
@@ -1074,7 +1085,7 @@
             <div class="heading-box">
                 <h2 class="heading-box__heading">События</h2>
                 <button 
-                    class="button button_white button_text-color-blue button_events-heading-box hover"
+                    class="button button_white button_text-color-blue hover"
                 >+ Добавить событие</button>
             </div>
 
@@ -1108,8 +1119,9 @@
             
             <div class="events__date-container">
                 <time class="events__date">04 Октября</time>
-                <div class="events__today-icon-box"></div>
-                <p class="events__today-icon">Сегодня</p>
+                <div class="events__today-icon-box">
+                    <p class="events__today-icon">Сегодня</p>
+                </div>
             </div>
 
             <div class="events__container">
@@ -1117,7 +1129,7 @@
 
                     <li class="events__item">
                         <img 
-                            class="event__poster"
+                            class="events__item-poster"
                             src="./images/niculin-90px.png"
                             alt="постер события"
                         >
@@ -1135,7 +1147,7 @@
 
                     <li class="events__item">
                         <img 
-                            class="event__poster"
+                            class="events__item-poster"
                             src="./images/zivert-evt-poster.png"
                             alt="постер события"
                         >
@@ -1153,7 +1165,7 @@
 
                     <li class="events__item">
                         <img 
-                            class="event__poster"
+                            class="events__item-poster"
                             src="./images/manizha.png"
                             alt="постер события"
                         >
@@ -1171,7 +1183,7 @@
 
                     <li class="events__item">
                         <img 
-                            class="event__poster"
+                            class="events__item-poster"
                             src="./images/psycho.png"
                             alt="постер события"
                         >
@@ -1189,7 +1201,7 @@
 
                     <li class="events__item">
                         <img 
-                            class="event__poster"
+                            class="events__item-poster"
                             src="./images/niculin-90px.png"
                             alt="постер события"
                         >

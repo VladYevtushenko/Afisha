@@ -1,0 +1,9 @@
+.events__item {
+    width: 179px;
+    height: 179px;
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
