@@ -1,0 +1,13 @@
+.event__category-box {
+    position: absolute;
+    top: 139px;
+    left: 16px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 12px;
+    gap: 6px;
+    padding: 0 8px;
+}
