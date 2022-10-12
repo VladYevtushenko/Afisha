@@ -1,5 +1,7 @@
 .events {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     margin-bottom: 59px;
+    width: 100%;
 }

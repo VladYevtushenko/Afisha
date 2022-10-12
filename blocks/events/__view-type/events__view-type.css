@@ -1,5 +1,5 @@
 .events__view-type {
-    min-width: 320px;
+    width: 90%;
     height: 30px;
     margin: 20px auto;
     display: flex;

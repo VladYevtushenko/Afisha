@@ -157,14 +157,13 @@
 @import url(../blocks/main-page/__info/main-page__info.css);
 @import url(../blocks/news/__list/_main-page/news__list_main-page.css);
 
-/* EVENTS main-page */
+/* EVENTS calendar */
 
 @import url(../blocks/events/events.css);
 @import url(../blocks/events/__view-type/events__view-type.css);
 @import url(../blocks/events/__filter-box/events__filter-box.css);
 @import url(../blocks/events/__filter-btn/events__filter-btn.css);
 @import url(../blocks/events/__filter-btn-box/events__filter-btn-box.css);
-@import url(../blocks/events-selector/events-selector.css);
 @import url(../blocks/events/__date-container/events__date-container.css);
 @import url(../blocks/events/__date/events__date.css);
 @import url(../blocks/events/__today-icon-box/events__today-icon-box.css);
@@ -173,6 +172,9 @@
 @import url(../blocks/events/__list/events__list.css);
 @import url(../blocks/events/__item/events__item.css);
 @import url(../blocks/events/__item-poster/events__item-poster.css);
+@import url(../blocks/events/__item-link/events__item-link.css);
+@import url(../blocks/events-selector/events-selector.css);
+
 
 /* EVENT page */
 
@@ -180,12 +182,15 @@
 @import url(../blocks/event/__poster/event__poster.css);
 @import url(../blocks/event/__heading-container/event__heading-container.css);
 @import url(../blocks/event/__name/event__name.css);
+@import url(../blocks/event/__name/_events-calendar/event__name_events-calendar.css);
 @import url(../blocks/event/__info-container/event__info-container.css);
 @import url(../blocks/event/__info-box/event__info-box.css);
 @import url(../blocks/event/__info-name/event__info-name.css);
 @import url(../blocks/event/__info-name/_blue/event__info-name_blue.css);
 @import url(../blocks/event/__description-container/event__description-container.css);
 @import url(../blocks/event/__description/event__description.css);
+@import url(../blocks/event/__category-box/event__category-box.css);
+@import url(../blocks/event/__category-name/event__category-name.css);
 @import url(../blocks/heading-box/_event-page/heading-box_event-page.css);
 @import url(../blocks/heading-box/__heading/_event-page/heading-box__heading_event-page.css);
 @import url(../blocks/comments-page/__write-btn-box/_event-page/comments-page__write-btn-box_event-page.css);
@@ -278,10 +283,12 @@
 
 @import url(../blocks/blue-btn/blue-btn.css);
 @import url(../blocks/blue-btn/_event-page/blue-btn_event-page.css);
+
 @import url(../blocks/save-btn/save-btn.css);
 @import url(../blocks/save-btn/_saved/save-btn_saved.css);
 @import url(../blocks/save-btn/_event-heading/save-btn_event-heading.css);
 @import url(../blocks/save-btn/_place/save-btn_place.css);
+@import url(../blocks/save-btn/_events-calendar/save-btn_events-calendar.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_white/button_white.css);
