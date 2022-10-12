@@ -1,0 +1,9 @@
+.events__today-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 26px;
+    background: #73C755;
+    border-radius: 16px;
+}

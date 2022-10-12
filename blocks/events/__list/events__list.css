@@ -1,0 +1,10 @@
+.events__list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 179px);
+    grid-gap: 2px;
+    justify-content: center;
+    align-items: center;
+}

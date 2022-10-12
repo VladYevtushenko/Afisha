@@ -167,7 +167,12 @@
 @import url(../blocks/events-selector/events-selector.css);
 @import url(../blocks/events/__date-container/events__date-container.css);
 @import url(../blocks/events/__date/events__date.css);
+@import url(../blocks/events/__today-icon-box/events__today-icon-box.css);
 @import url(../blocks/events/__today-icon/events__today-icon.css);
+@import url(../blocks/events/__container/events__container.css);
+@import url(../blocks/events/__list/events__list.css);
+@import url(../blocks/events/__item/events__item.css);
+@import url(../blocks/events/__item-poster/events__item-poster.css);
 
 /* EVENT page */
 
