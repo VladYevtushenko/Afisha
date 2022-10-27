@@ -1,0 +1,8 @@
+.my-materials__img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-left: 16px;
+}

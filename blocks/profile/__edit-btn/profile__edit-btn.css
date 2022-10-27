@@ -1,0 +1,11 @@
+.profile__edit-btn {
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    background-image: url(../../../images/prof-edit-Icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
