@@ -1,0 +1,12 @@
+.profile__add-publication {
+    border: none;
+    height: 56px;
+    width: 260px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #105FF9;
+}

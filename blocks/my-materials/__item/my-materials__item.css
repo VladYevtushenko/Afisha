@@ -1,0 +1,10 @@
+.my-materials__item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-bottom: 2px solid #F4F5F6;
+}

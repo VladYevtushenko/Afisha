@@ -41,7 +41,7 @@
 
         <section class="articles display-none">
             <div class="articles__heading">
-                <h1 class="articles__heading-text">Статьи</h1>
+                <h1 class="articles__heading-text">Материалы</h1>
                 <button class="articles__calendar hover"></button>
             </div>
 
@@ -1081,7 +1081,7 @@
 
 <!-- EVENTS calendar by day  -->
 
-        <section class="events">
+        <section class="events display-none">
             <div class="heading-box">
                 <h2 class="heading-box__heading">События</h2>
                 <button 
@@ -1783,8 +1783,93 @@
             <button class="registration__continue-btn registration__continue-btn_profile hover">Завершить</button>
         </section>
 
+<!-- PROFILE -->
 
+        <section class="profile">
+            <img class="profile__img" src="./images/портрет.jpeg">
+            <p class="profile__name">Azamat Askhataly</p>
+            <ul class="profile__stats">
+                <li class="profile__stats-item">
+                    <p class="profile__stats-name">Подписчики</p>
+                    <p class="profile__stats-count">1 258</p>
+                </li>
+                <li class="profile__stats-item">
+                    <p class="profile__stats-name">Подписки</p>
+                    <p class="profile__stats-count">75</p>
+                </li>
+                <li class="profile__stats-item">
+                    <p class="profile__stats-name">Просмотры</p>
+                    <p class="profile__stats-count">12 489</p>
+                </li>
+            </ul>
 
+            <div class="profile__btn-container">
+                <button class="profile__add-publication">+ Добавить публикацию</button>
+                <button class="profile__edit-btn"></button>
+            </div>
+
+            <div class="profile__content-btns-box">
+                <a href="#" class="profile__my-materials text-btn-active">Мои материалы</a>
+                <a href="#" class="profile__saved-materials">
+                    <img src="./images/save-btn.svg" alt="иконка">
+                    <p class="profile__my-materials">Сохраненные</p>
+                </a>
+            </div>
+
+            <div class="my-materials display-none">
+                <ul class="my-materials__list">
+                    <li class="my-materials__item">
+                        <img src="./images/rest-almaty.png" alt="фото" class="my-materials__img">
+                        <div class="my-materials__info-container">
+                            <p class="my-materials__date-created">Сегодня 14:00 </p>
+                            <p class="my-materials__name">Куда сходить в Алматы 
+                                этой осенью?</p>
+                            <div class="my-materials__item-status-box">
+                                <p class="my-materials__item-status">4 новых комментария</p>
+                            </div>
+                        </div>
+                        <img src="./images/menu-dots-Icon.svg" alt="иконка-меню" class="my-materials__menu-icon">
+                    </li>
+
+                    <li class="my-materials__item">
+                        <img src="./images/rest-almaty.png" alt="фото" class="my-materials__img">
+                        <div class="my-materials__info-container">
+                            <div class="my-materials__item-status-box my-materials__item-status-box_draft">
+                                <p class="my-materials__item-status">Черновик</p>
+                            </div>
+                            <p class="my-materials__name">Куда сходить в Алматы 
+                                этой осенью?</p>
+                        </div>
+                        <img src="./images/menu-dots-Icon.svg" alt="иконка-меню" class="my-materials__menu-icon">
+                    </li>
+
+                    <li class="my-materials__item">
+                        <img src="./images/rest-almaty.png" alt="фото" class="my-materials__img">
+                        <div class="my-materials__info-container">
+                            <div class="my-materials__item-status-box my-materials__item-status-box_moderation">
+                                <p class="my-materials__item-status">На модерации</p>
+                            </div>
+                            <p class="my-materials__name">Куда сходить в Алматы 
+                                этой осенью?</p>
+                        </div>
+                        <img src="./images/menu-dots-Icon.svg" alt="иконка-меню" class="my-materials__menu-icon">
+                    </li>
+
+                    <li class="my-materials__item">
+                        <img src="./images/rest-almaty.png" alt="фото" class="my-materials__img">
+                        <div class="my-materials__info-container">
+                            <div class="my-materials__item-status-box my-materials__item-status-box_reject">
+                                <p class="my-materials__item-status">Отклонен</p>
+                            </div>
+                            <p class="my-materials__name">Куда сходить в Алматы 
+                                этой осенью?</p>
+                        </div>
+                        <img src="./images/menu-dots-Icon.svg" alt="иконка-меню" class="my-materials__menu-icon">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="my-materials__no-materials"><img src="./images/нет-публикаций.svg" alt="нет публикаций"></div>
     </div>
 
     <footer class="footer">

@@ -257,6 +257,38 @@
 @import url(../blocks/registration/__input-container/_profile/registration__input-container_profile.css);
 @import url(../blocks/registration/__input-prof-name/registrstion__input-prof-name.css);
 
+/* PROFILE */
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__img/profile__img.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__stats/profile__stats.css);
+@import url(../blocks/profile/__stats-item/profile__stats-item.css);
+@import url(../blocks/profile/__stats-name/profile__stats-name.css);
+@import url(../blocks/profile/__stats-count/profile__stats-count.css);
+@import url(../blocks/profile/__btn-section/profile__btn-container.css);
+@import url(../blocks/profile/__add-publication/profile__add-publication.css);
+@import url(../blocks/profile/__edit-btn/profile__edit-btn.css);
+@import url(../blocks/profile/__content-btns-box/profile__content-btns-box.css);
+@import url(../blocks/profile/__saved-materials/profile__saved-materials.css);
+@import url(../blocks/profile/__my-materials/profile__my-materials.css);
+
+/* MY_MATERIALS */
+
+@import url(../blocks/my-materials/my-materials.css);
+@import url(../blocks/my-materials/__list/my-materials__list.css);
+@import url(../blocks/my-materials/__item/my-materials__item.css);
+@import url(../blocks/my-materials/__img/my-materials__img.css);
+@import url(../blocks/my-materials/__info-container/my-materials__info-container.css);
+@import url(../blocks/my-materials/__date-created/my-materials__date-created.css);
+@import url(../blocks/my-materials/__name/my-materials__name.css);
+@import url(../blocks/my-materials/__item-status-box/my-materials__item-status-box.css);
+@import url(../blocks/my-materials/__item-status-box/_draft/my-materials__item-status-box_draft.css);
+@import url(../blocks/my-materials/__item-status-box/_moderation/my-materials__item-status-box_moderation.css);
+@import url(../blocks/my-materials/__item-status-box/_reject/my-materials__item-status-box_reject.css);
+@import url(../blocks/my-materials/__item-status/my-materials__item-status.css);
+@import url(../blocks/my-materials/__menu-icon/my-materials__menu-icon.css);
+@import url(../blocks/my-materials/__no-materials/my-materials__no-materials.css);
 
 @import url(../blocks/left-arrow-btn/left-arrow-btn.css);
 @import url(../blocks/back-btn/back-btn.css);

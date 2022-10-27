@@ -1,0 +1,6 @@
+.my-materials__info-container {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

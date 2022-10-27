@@ -1,0 +1,13 @@
+.profile__my-materials {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px; 
+    color: #0F0F0F;
+    text-decoration: none;
+    margin: 0;
+}
+
+.profile__my-materials:visited {
+    columns: #0f0f0f;
+}
