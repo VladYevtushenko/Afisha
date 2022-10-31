@@ -290,6 +290,15 @@
 @import url(../blocks/my-materials/__menu-icon/my-materials__menu-icon.css);
 @import url(../blocks/my-materials/__no-materials/my-materials__no-materials.css);
 
+/* UNDER-CONSTRUCTION */
+
+@import url(../blocks/under-construction/under-construction.css);
+@import url(../blocks/under-construction/__heading/under-construction__heading.css);
+@import url(../blocks/under-construction/__img/under-construction__img.css);
+@import url(../blocks/under-construction/__paragraph/under-construction__paragraph.css);
+@import url(../blocks/under-construction/__submit-btn/under-construction__submit-btn.css);
+
+
 @import url(../blocks/left-arrow-btn/left-arrow-btn.css);
 @import url(../blocks/back-btn/back-btn.css);
 @import url(../blocks/close-btn/_reg-prof/close-btn_reg-prof.css);

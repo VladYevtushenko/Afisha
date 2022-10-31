@@ -1,0 +1,14 @@
+.under-construction__submit-btn {
+    width: 328px;
+    height: 48px;
+    background: #105FF9;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+}

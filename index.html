@@ -1785,7 +1785,7 @@
 
 <!-- PROFILE -->
 
-        <section class="profile">
+        <section class="profile display-none">
             <img class="profile__img" src="./images/портрет.jpeg">
             <p class="profile__name">Azamat Askhataly</p>
             <ul class="profile__stats">
@@ -1870,6 +1870,29 @@
             </div>
 
             <div class="my-materials__no-materials"><img src="./images/нет-публикаций.svg" alt="нет публикаций"></div>
+        </section>
+
+        <section class="under-construction">
+            <div class="close-btn__container">
+                <button class="close-btn"></button>
+            </div>
+            <h2 class="under-construction__heading">Мы скоро запустимся!</h2>
+            <img src="./images/under-const-pic.svg" alt="картинка запуска ракеты" class="under-construction__img">
+            <p class="under-construction__paragraph">Данный раздел находится в разработке и будет запущен в ближайшее время. Вы можете оставить ваш номер телефона и мы оповестим вас, когда все запустится</p>
+            <form type="submit" id="mobileFrom" class="under-construction__mobile-form">
+                <fieldset class="registration__input-container">
+                    <img class="flag-img" src="./images/KZ-flag.svg" alt="флаг РК">
+                    <input 
+                        type="tel" 
+                        class="registrstion__input-mobile"
+                        placeholder="+7 ( ___ ) ___  __ __"
+                        pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+                    >
+                </fieldset>
+                <button class="under-construction__submit-btn hover" type="submit">Оповестить меня</button>
+            </form>
+        </section>
+
     </div>
 
     <footer class="footer">
